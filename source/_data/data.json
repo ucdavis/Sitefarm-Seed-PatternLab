@@ -1,0 +1,757 @@
+{
+  "siteName": "SiteFarm Seed",
+  "slogan": "Websites Grown Here",
+  "title": "Page Title",
+  "htmlClass": "pl",
+  "bodyClass": "body",
+  "siteLogo": "../../images/site-logo.svg",
+  "colors": {
+    "brand": [
+      {
+        "label": "Blue",
+        "variable": "$brand--primary",
+        "hex": "#002855"
+      },
+      {
+        "label": "Gold",
+        "variable": "$brand--secondary",
+        "hex": "#daaa00"
+      },
+      {
+        "label": "White",
+        "variable": "$white",
+        "hex": "#ffffff"
+      },
+      {
+        "label": "Black",
+        "variable": "$black",
+        "hex": "#000000"
+      }
+    ],
+    "brandPrimaryTint": [
+      {
+        "variable": "$brand--primary-90",
+        "hex": "#1A3E68"
+      },
+      {
+        "variable": "$brand--primary-80",
+        "hex": "#335379"
+      },
+      {
+        "variable": "$brand--primary-70",
+        "hex": "#4D688C"
+      },
+      {
+        "variable": "$brand--primary-60",
+        "hex": "#667D9D"
+      },
+      {
+        "variable": "$brand--primary-50",
+        "hex": "#7F93AE"
+      },
+      {
+        "variable": "$brand--primary-40",
+        "hex": "#99A9BF"
+      },
+      {
+        "variable": "$brand--primary-30",
+        "hex": "#B2BDCF"
+      },
+      {
+        "variable": "$brand--primary-20",
+        "hex": "#CCD4E0"
+      },
+      {
+        "variable": "$brand--primary-10",
+        "hex": "#E5E9EF"
+      }
+    ],
+    "brandSecondaryTint": [
+      {
+        "variable": "$brand--secondary-90",
+        "hex": "#DEB31A"
+      },
+      {
+        "variable": "$brand--secondary-80",
+        "hex": "#E1BB33"
+      },
+      {
+        "variable": "$brand--secondary-70",
+        "hex": "#E5C44D"
+      },
+      {
+        "variable": "$brand--secondary-60",
+        "hex": "#E9CC66"
+      },
+      {
+        "variable": "$brand--secondary-50",
+        "hex": "#ECD47F"
+      },
+      {
+        "variable": "$brand--secondary-40",
+        "hex": "#F0DD99"
+      },
+      {
+        "variable": "$brand--secondary-30",
+        "hex": "#F4E5B2"
+      },
+      {
+        "variable": "$brand--secondary-20",
+        "hex": "#F8EECC"
+      },
+      {
+        "variable": "$brand--secondary-10",
+        "hex": "#FBF6E5"
+      }
+    ]
+  },
+  "img": {
+    "landscape4x3": {
+      "src": "http://placehold.it/640x480",
+      "alt": "4x3 Image"
+    },
+    "landscape16x9": {
+      "src": "http://placehold.it/1280x720",
+      "alt": "16x9 Image"
+    },
+    "thumbnail": {
+      "src": "http://placehold.it/135x135",
+      "alt": "Thumbnail"
+    },
+    "focalLink": {
+      "src": "http://placehold.it/63x63",
+      "alt": "Focal Link Image"
+    },
+    "featured": {
+      "src": "http://placehold.it/500x375",
+      "alt": "Featured Image"
+    },
+    "hero": {
+      "src": "http://placehold.it/2000x770",
+      "alt": "Featured Hero Image"
+    },
+    "slideshow": {
+      "src": "http://placehold.it/1000x563",
+      "lazy": "http://placehold.it/1000x563",
+      "alt": "Slideshow Image"
+    },
+    "slideshowThumbnail": {
+      "src": "http://placehold.it/320x180",
+      "lazy": "http://placehold.it/320x180",
+      "alt": "Slideshow Thumbnail Image"
+    },
+    "titleBanner": {
+      "src": "http://placehold.it/2000x460",
+      "alt": "Title Banner"
+    },
+    "focus": {
+      "src": "http://placehold.it/1000x380",
+      "alt": "Focus Image"
+    },
+    "profileImage": {
+      "src": "http://placehold.it/520x580",
+      "alt": "Profile Highlight Image"
+    },
+    "galleryFull": {
+      "src": "http://placehold.it/2000x1125",
+      "alt": "Gallery Full Image"
+    },
+    "galleryThumbnail": {
+      "src": "http://placehold.it/352x198",
+      "alt": "Gallery Thumbnail Image"
+    }
+  },
+  "heroBanner": {
+    "btnVideo": false,
+    "title": "Lorem ipsum (27 characters)",
+    "btnText": "Apply Now"
+  },
+  "headline": {
+    "short": "Lorem ipsum dolor sit (37 characters)",
+    "medium": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. (72 characters)"
+  },
+  "excerpt": {
+    "short": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "medium": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "long": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+  },
+  "description": "So, setting about it as methodically as men might smoke out a wasps' nest, the Martians spread this strange stifling vapour over the Londonward country. The horns of the crescent slowly moved apart, until at last they formed a line from Hanwell to Coombe and Malden. All night through their destructive tubes advanced.",
+  "location": "123 Test St., Townsville, CA 95765",
+  "url": "#",
+  "figcaption": "This is some caption text for an image",
+  "name": {
+    "first": "Lacy",
+    "firsti": "L",
+    "middle": "Tommie",
+    "middlei": "T",
+    "last": "Way",
+    "lasti": "W"
+  },
+  "showDate": true,
+  "year": {
+    "long": "2015",
+    "short": "13"
+  },
+  "month": {
+    "long": "February",
+    "short": "Feb",
+    "digit": "2"
+  },
+  "dayofweek": {
+    "long": "Monday",
+    "short": "Mon"
+  },
+  "day": {
+    "long": "10",
+    "short": "10",
+    "ordinal": "th"
+  },
+  "hour": {
+    "long": "01",
+    "short": "1",
+    "military": "13",
+    "ampm": "pm"
+  },
+  "minute": {
+    "long": "20",
+    "short": "20"
+  },
+  "seconds": "31",
+  "author": {
+    "firstName": "Author",
+    "lastName": "Name"
+  },
+  "breadcrumbs": [
+    {
+      "url": "../03-templates-00-homepage/03-templates-00-homepage.html",
+      "linkTitle": "Home"
+    },
+    {
+      "url": "#",
+      "linkTitle": "Current Page"
+    }
+  ],
+  "brandClass": "category-brand--admin-blue",
+  "emergency": false,
+  "actionText": "This is a Call to Action link",
+  "videoId": "nZZDAzErkIU",
+  "videoWidth": "853",
+  "videoHeight": "480",
+  "wysiwygFeatureBlock": {
+    "title": "Title for the wysiwyg-feature-block",
+    "text": "Sed vehicula metus tellus, ut <a href='#'>scelerisque</a> justo posuere eget. Suspendisse eu feugiat nibh.</a>."
+  },
+  "slideshow": [
+    {
+      "slides": [
+        {
+          "slideTitle": {
+            "firstWord": "slide",
+            "remaining": "title"
+          },
+          "caption": "Look at me I'm a caption."
+        },
+        {
+          "caption": "I am also a caption."
+        },
+        {},
+        {},
+        {}
+      ],
+      "hasThumbnails": false,
+      "thumbSlides": [
+        {},
+        {},
+        {},
+        {},
+        {}
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "img": {
+        "galleryFull": {
+          "src": "http://placehold.it/2000x1125",
+          "width": "2000",
+          "height": "1125"
+        },
+        "galleryThumbnail": {
+          "src": "http://placehold.it/352x198"
+        }
+      },
+      "caption": "Look at me I'm a caption."
+    },
+    {
+      "img": {
+        "galleryFull": {
+          "src": "http://placehold.it/2000x1125",
+          "alt": "Alt text two",
+          "width": "2000",
+          "height": "1125"
+        },
+        "galleryThumbnail": {
+          "src": "http://placehold.it/352x198",
+          "alt": "16x9 Image"
+        }
+      },
+      "caption": "I Also, am a caption."
+    },
+    {
+      "img": {
+        "galleryFull": {
+          "src": "http://placehold.it/2000x1125",
+          "alt": "Alt text three",
+          "width": "2000",
+          "height": "1125"
+        },
+        "galleryThumbnail": {
+          "src": "http://placehold.it/352x198",
+          "alt": "16x9 Image"
+        }
+      },
+      "caption": false
+    },
+    {
+      "img": {
+        "galleryFull": {
+          "src": "http://placehold.it/2000x1125",
+          "alt": "Alt text three",
+          "width": "2000",
+          "height": "1125"
+        },
+        "galleryThumbnail": {
+          "src": "http://placehold.it/352x198",
+          "alt": "16x9 Image"
+        }
+      },
+      "caption": false
+    },
+    {
+      "img": {
+        "galleryFull": {
+          "src": "http://placehold.it/2000x1125",
+          "alt": "Alt text three",
+          "width": "2000",
+          "height": "1125"
+        },
+        "galleryThumbnail": {
+          "src": "http://placehold.it/352x198",
+          "alt": "16x9 Image"
+        }
+      },
+      "caption": false
+    },
+    {
+      "img": {
+        "galleryFull": {
+          "src": "http://placehold.it/2000x1125",
+          "alt": "Alt text three",
+          "width": "2000",
+          "height": "1125"
+        },
+        "galleryThumbnail": {
+          "src": "http://placehold.it/352x198",
+          "alt": "16x9 Image"
+        }
+      },
+      "caption": false
+    },
+    {
+      "img": {
+        "galleryFull": {
+          "src": "http://placehold.it/2000x1125",
+          "alt": "Alt text three",
+          "width": "2000",
+          "height": "1125"
+        },
+        "galleryThumbnail": {
+          "src": "http://placehold.it/352x198",
+          "alt": "16x9 Image"
+        }
+      },
+      "caption": false
+    }
+  ],
+  "focalLinks": [
+    {},
+    {},
+    {}
+  ],
+  "searchResultsList": [
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "marketingHighlight": {
+    "shortBurst": [
+      {
+        "brandClass": "category-brand--california-poppy"
+      },
+      {
+        "brandClass": "category-brand--western-redbud"
+      },
+      {
+        "brandClass": "category-brand--wine-grape"
+      }
+    ],
+    "longBurst": [
+      {
+        "brandClass": "category-brand--wine-grape"
+      },
+      {
+        "brandClass": "category-brand--california-poppy"
+      },
+      {
+        "brandClass": "category-brand--western-redbud"
+      },
+      {
+        "brandClass": "category-brand--sunny-grass"
+      },
+      {
+        "brandClass": "category-brand--sky-blue"
+      },
+      {
+        "brandClass": "category-brand--wine-grape"
+      },
+      {
+        "brandClass": "category-brand--wine-grape"
+      },
+      {
+        "brandClass": "category-brand--sunny-grass"
+      },
+      {
+        "brandClass": "category-brand--california-poppy"
+      },
+      {
+        "brandClass": "category-brand--western-redbud"
+      }
+    ]
+  },
+  "marketingHighlightFeatured": {
+    "shortBurst": [
+      {
+        "brandClass": "category-brand--california-poppy",
+        "highlightLabel": "Lorem Ipsum",
+        "ctaText": "Lorem Ipsum Dolar"
+      },
+      {
+        "brandClass": "category-brand--western-redbud",
+        "highlightLabel": "Lorem Ipsum",
+        "ctaText": "Lorem Ipsum Dolar",
+        "excerpt": {
+          "short": ""
+        }
+      }
+    ]
+  },
+  "spotlight": {
+    "url": "",
+    "callout": "5"
+  },
+  "tagList": [
+    {
+      "linkTitle": "tag 1"
+    },
+    {
+      "linkTitle": "tag 2"
+    },
+    {
+      "linkTitle": "tag 3"
+    },
+    {
+      "linkTitle": "tag 4"
+    },
+    {
+      "linkTitle": "tag 5"
+    },
+    {
+      "linkTitle": "tag 6"
+    },
+    {
+      "linkTitle": "tag 7"
+    }
+  ],
+  "latestNews": [
+    {
+      "teaserByline": true,
+      "teaserCategorized": true
+    },
+    {
+      "featured": true,
+      "teaserByline": true,
+      "teaserCategorized": true
+    },
+    {
+      "teaserByline": true,
+      "teaserCategorized": true
+    },
+    {
+      "teaserByline": true,
+      "teaserCategorized": true
+    },
+    {
+      "teaserByline": true,
+      "teaserCategorized": true
+    },
+    {
+      "featured": true,
+      "teaserByline": true,
+      "teaserCategorized": true
+    }
+  ],
+  "taxonomyResults": [
+    {},
+    {
+      "featured": true
+    },
+    {},
+    {},
+    {},
+    {
+      "featured": true
+    }
+  ],
+  "category": {
+    "primary": "Snozzberries",
+    "secondary": "Gobstopper"
+  },
+  "articleList": [
+    {},
+    {},
+    {}
+  ],
+  "eventList": [
+    {},
+    {
+      "featured": true
+    },
+    {}
+  ],
+  "peopleGroups": [
+    {},
+    {},
+    {}
+  ],
+  "peopleList": [
+    {
+      "teaserPerson": true
+    },
+    {
+      "teaserPerson": true
+    },
+    {
+      "teaserPerson": true
+    },
+    {
+      "teaserPerson": true
+    },
+    {
+      "teaserPerson": true
+    }
+  ],
+  "peopleListShort": [
+    {
+      "headline": {
+        "medium": "Full Name",
+        "short": "Position Title"
+      },
+      "showDate": false
+    },
+    {
+      "headline": {
+        "medium": "Full Name",
+        "short": "Position Title"
+      },
+      "showDate": false
+    }
+  ],
+  "peopleGroupTitle": "Group Title",
+  "searchResultNum": "5",
+  "categoryFilter": [
+    {
+      "brandColor": "category-brand--admin-blue",
+      "isActiveLink": true,
+      "text": "Lorem Ipsum"
+    },
+    {
+      "brandColor": "category-brand--unitrans-red",
+      "text": "Lorem Ipsum"
+    },
+    {
+      "brandColor": "category-brand--wine-grape",
+      "text": "Lorem Ipsum"
+    },
+    {
+      "brandColor": "category-brand--sunny-grass",
+      "text": "Lorem Ipsum"
+    },
+    {
+      "brandColor": "category-brand--sky-blue",
+      "text": "Lorem Ipsum"
+    },
+    {
+      "brandColor": "category-brand--western-redbud",
+      "text": "Lorem Ipsum"
+    },
+    {
+      "brandColor": "category-brand--california-poppy",
+      "text": "Lorem Ipsum"
+    }
+  ],
+  "placeholder": "Search",
+  "textInputText": "Input Title",
+  "textInputPlaceholder": "Enter Text...",
+  "pageCopy": {
+    "section01": {
+      "heading": "Lorem ipsum dolor sit (37 characters)",
+      "text": "Lorem ipsum dolor sit amet, <a href='#'>consectetur adipisicing elit</a>, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    "section02": {
+      "heading": "Lorem ipsum dolor sit (37 characters)",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    "section03": {
+      "heading": "Lorem ipsum dolor sit (37 characters)",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    "section04": {
+      "heading": "Lorem ipsum dolor sit (37 characters)",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    "section05": {
+      "heading": "Lorem ipsum dolor sit (37 characters)",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    "section06": {
+      "heading": "Lorem ipsum dolor sit (37 characters)",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    }
+  },
+  "focusBoxTitle": "Focus Box Title",
+  "focusBoxText": "Lorem ipsum dolar sit amet.",
+  "hasFigure": true,
+  "hasMediaFigure": true,
+  "presenter": {
+    "prefix": "Presented by",
+    "name": "UC Davis"
+  },
+  "addToCalendar": "Add to your calendar",
+  "phoneNum": "530-752-5555",
+  "emailAdd": "Joe@test.edu",
+  "webLink": "www.mypage.com",
+  "officeHours": "9AM to 5PM",
+  "address": {
+    "number": "5555",
+    "street": "Wabash Ave.",
+    "city": "Townsville",
+    "state": "CA",
+    "zip": "95666"
+  },
+  "filterList": [
+    {
+      "filter": "filter",
+      "filterNum": "(2)"
+    },
+    {
+      "filter": "filter",
+      "filterNum": "(2)"
+    },
+    {
+      "filter": "filter",
+      "filterNum": "(2)"
+    },
+    {
+      "filter": "filter",
+      "filterNum": "(2)"
+    },
+    {
+      "filter": "filter",
+      "filterNum": "(2)"
+    }
+  ],
+  "catList": [
+    {
+      "categoryValue": "Sample Category One",
+      "brandColor": "sky-blue"
+    },
+    {
+      "categoryValue": "Sample Category Two",
+      "brandColor": "sunny-grass"
+    }
+  ],
+  "listDownloads": [
+    {
+      "listDownload": "Unordered List Download"
+    },
+    {
+      "listDownload": "Unordered List Download"
+    },
+    {
+      "listDownload": "Unordered List Download"
+    }
+  ],
+  "person": {
+    "headline": "Mr. John Smith",
+    "title": "Position Title",
+    "dept": "Unit",
+    "type": "Type",
+    "location": "Room 22 Legendary Hall",
+    "address": true,
+    "officeHours": "9AM-5PM",
+    "contactInfo": true
+  },
+  "event": {
+    "mapLink": "View Map",
+    "date": "Feb 10-11, 2020",
+    "time": "1:20pm - 5:00pm",
+    "officeHours": true,
+    "contactInfo": true,
+    "linkText": "Event Details",
+    "summary": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+  },
+  "singleCategory": [
+    {
+      "tagList": [
+        {
+          "linkTitle": "Type/Category"
+        }
+      ]
+    }
+  ],
+  "personReference": [
+    {},
+    {},
+    {}
+  ],
+  "personLink": "View Listing",
+  "photoGalleries": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "teaserSummary": true,
+  "priorityLinks": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "dropdownTitle": "Drop Down",
+  "dropdownItems": [
+    {
+      "dropdownItem": "Item 1"
+    },
+    {
+      "dropdownItem": "Item 2"
+    },
+    {
+      "dropdownItem": "Item 3"
+    }
+  ]
+}

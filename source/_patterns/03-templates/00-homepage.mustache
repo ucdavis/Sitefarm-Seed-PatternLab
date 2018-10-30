@@ -1,0 +1,55 @@
+<div class="page">
+  {{> organisms-header }}
+  <main class="l-main">
+
+    <div class="panel">
+      {{> organisms-hero-banner }}
+    </div>
+
+    {{# emergency }}
+      {{> molecules-alert-error }}
+    {{/ emergency }}
+
+    <div class="l-container l-basic">
+
+      <div class="l-content">
+        <div class="panel">
+          {{> molecules-spotlight }}
+        </div>
+        {{# marketingHighlightFeatured.shortBurst }}
+          <div class="panel">
+            {{> molecules-marketing-highlight }}
+          </div>
+        {{/ marketingHighlightFeatured.shortBurst }}
+        <div class="panel">
+          {{> atoms-video-youtube }}
+        </div>
+        <div class="panel">
+          {{> molecules-slideshow }}
+        </div>
+        <div class="panel">
+          <h2 class="panel__title">Follow Us</h2>
+          {{> molecules-social-follow }}
+        </div>
+      </div><!--end .l-content-->
+
+      <div class="l-sidebar">
+        <div class="panel o-box">
+          <h2 class="panel__title">Upcoming Events</h2>
+          {{> organisms-event-list }}
+        </div>
+        <div class="panel o-box">
+          <h2 class="panel__title">Top Stories</h2>
+          {{> organisms-article-list }}
+        </div>
+        {{# focalLinks }}
+          <div class="panel">
+            {{> molecules-focal-link }}
+          </div>
+        {{/ focalLinks }}
+      </div><!--end .l-sidebar-first-->
+
+    </div>
+  </main><!--End role=main-->
+  {{> organisms-footer }}
+</div>

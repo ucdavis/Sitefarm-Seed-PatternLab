@@ -1,0 +1,16 @@
+<div class="u-align--right u-width--one-third">
+  {{> atoms-profile-image }}
+</div>
+<h2 class="person-position-title">{{ person.title }}</h2>
+<h3 class="u-space-bottom--small">{{ person.dept }}</h3>
+<ul class="list--pipe u-space-bottom">
+  <li class="icon icon--phone">530-234-2233</li>
+  <li class="icon icon--phone">916-599-0922</li>
+  <li class="icon icon--link icon--envelope"><a href="{{ url }}">{{ emailAdd }}</a></li>
+  <li class="icon icon--link icon--web"><a href="{{ url }}">{{ webLink }}</a></li>
+  <li class="icon icon--location">{{ person.location }}</li>
+  <li class="icon icon--map">1 Shields Ave., Davis, CA 95616</li>
+</ul>
+<label for="office-hours">Office Hours</label>
+<p id="office-hours">{{ person.officeHours }}</p>
+<p>{{ excerpt.long }}</p>

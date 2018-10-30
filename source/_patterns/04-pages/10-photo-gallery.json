@@ -1,0 +1,145 @@
+{
+  "title": "Building Photo Gallery",
+  "excerpt": {
+    "short": "UC Davis campus has many old and new buildings to house our students, staff, and faculty as they pursue higher learning. Enjoy this gallery of photos."
+  },
+  "singleCategory": [
+    {
+      "tagList": [
+        {
+          "linkTitle": "Sights"
+        }
+      ]
+    }
+  ],
+  "gallery": [
+    {
+      "img": {
+        "full": {
+          "src": "http://lorempixel.com/1280/720/city/1/",
+          "alt": "Gladiator Hall",
+          "width": "1280",
+          "height": "720"
+        },
+        "thumb": {
+          "src": "http://lorempixel.com/640/360/city/1/",
+          "alt": "Gladiator Hall"
+        }
+      },
+      "caption": "Gladiator Hall"
+    },
+    {
+      "img": {
+        "full": {
+          "src": "http://lorempixel.com/1280/720/city/2/",
+          "alt": "Math Center",
+          "width": "1280",
+          "height": "720"
+        },
+        "thumb": {
+          "src": "http://lorempixel.com/640/360/city/2/",
+          "alt": "Math Center"
+        }
+      },
+      "caption": "Math Center"
+    },
+    {
+      "img": {
+        "full": {
+          "src": "http://lorempixel.com/1280/720/city/3/",
+          "alt": "John Doe Center",
+          "width": "1280",
+          "height": "720"
+        },
+        "thumb": {
+          "src": "http://lorempixel.com/640/360/city/3/",
+          "alt": "John Doe Center"
+        }
+      },
+      "caption": "John Doe Center"
+    },
+    {
+      "img": {
+        "full": {
+          "src": "http://lorempixel.com/1280/720/city/4/",
+          "alt": "Davis Plaza",
+          "width": "1280",
+          "height": "720"
+        },
+        "thumb": {
+          "src": "http://lorempixel.com/640/360/city/4/",
+          "alt": "Davis Plaza"
+        }
+      },
+      "caption": "Davis Plaza"
+    },
+    {
+      "img": {
+        "full": {
+          "src": "http://lorempixel.com/1280/720/city/5/",
+          "alt": "Facility One",
+          "width": "1280",
+          "height": "720"
+        },
+        "thumb": {
+          "src": "http://lorempixel.com/640/360/city/5/",
+          "alt": "Facility One"
+        }
+      },
+      "caption": false
+    },
+    {
+      "img": {
+        "full": {
+          "src": "http://lorempixel.com/1280/720/city/6/",
+          "alt": "Schneider Plaza",
+          "width": "1280",
+          "height": "720"
+        },
+        "thumb": {
+          "src": "http://lorempixel.com/640/360/city/6/",
+          "alt": "Schneider Plaza"
+        }
+      },
+      "caption": false
+    },
+    {
+      "img": {
+        "full": {
+          "src": "http://lorempixel.com/1280/720/city/7/",
+          "alt": "Grounds Keeping",
+          "width": "1280",
+          "height": "720"
+        },
+        "thumb": {
+          "src": "http://lorempixel.com/640/360/city/7/",
+          "alt": "Grounds Keeping"
+        }
+      },
+      "caption": false
+    }
+  ],
+  "tagList": [
+    {
+      "linkTitle": "Halls"
+    },
+    {
+      "linkTitle": "Buildings"
+    },
+    {
+      "linkTitle": "Facilities"
+    },
+    {
+      "linkTitle": "Campus"
+    },
+    {
+      "linkTitle": "Architecture"
+    },
+    {
+      "linkTitle": "Views"
+    },
+    {
+      "linkTitle": "Identification"
+    }
+  ]
+}

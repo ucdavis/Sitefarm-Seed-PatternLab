@@ -1,0 +1,52 @@
+image: thecodingmachine/php:7.2-v1-cli-node10
+
+pipelines:
+  default:
+    - step:
+        name: Build and Validate
+        caches:
+          - node
+          - npm
+          - cypress
+        script:
+          - npm --version
+          - npm ci
+          - npx gulp validate
+          - npx gulp compile
+        artifacts:
+          - public/**
+    - step:
+        name: E2E Tests with Cypress
+        # Use the official cypress docker container.
+        image: cypress/base:10
+        caches:
+          - node
+          - npm
+          - cypress
+        script:
+          - npm run e2e:ci -- --config video=false # Disable video recording
+  branches:
+    master:
+      - step:
+          name: Deploy to AWS
+          caches:
+            - npm
+          script:
+            - sudo apt-get update
+            - sudo apt-get -y --no-install-recommends install rsync
+            - sudo apt-get -y --no-install-recommends install awscli
+            - mkdir ~/.aws
+            - umask 077 ; echo $aws_config | base64 --decode > ~/.aws/config
+            - umask 077 ; echo $aws_credentials | base64 --decode > ~/.aws/credentials
+            - npm --version
+            - npm ci
+            - npx gulp validate
+            - npx gulp compile
+            - cd public
+            - aws s3 sync . s3://ucd-one-patternlab --delete --exclude '*.svg'
+            - aws s3 sync . s3://ucd-one-patternlab --delete --exclude '*' --include '*.svg' --content-type 'image/svg+xml'
+
+definitions:
+  caches:
+    npm: ~/.npm
+    cypress: ~/.cache

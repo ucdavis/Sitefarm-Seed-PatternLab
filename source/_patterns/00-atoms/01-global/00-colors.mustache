@@ -1,0 +1,40 @@
+<ul class="sg-colors">
+  {{# colors.brand }}
+    <li>
+      <span class="sg-swatch" style="background: {{ hex }};"></span>
+      <span class="sg-label">
+        {{# label }}{{ label }} <br />{{/ label}}
+        {{# variable }}{{ variable }} <br />{{/ variable}}
+        {{ hex }}
+      </span>
+    </li>
+  {{/colors.brand}}
+</ul>
+
+<h2>Primary Tints</h2>
+<ul class="sg-colors">
+  {{# colors.brandPrimaryTint }}
+    <li>
+      <span class="sg-swatch" style="background: {{ hex }};"></span>
+      <span class="sg-label">
+        {{# label }}{{ label }} <br />{{/ label}}
+        {{# variable }}{{ variable }} <br />{{/ variable}}
+        {{ hex }}
+      </span>
+    </li>
+  {{/colors.brandPrimaryTint}}
+</ul>
+
+<h2>Secondary Tints</h2>
+<ul class="sg-colors">
+  {{# colors.brandSecondaryTint }}
+    <li>
+      <span class="sg-swatch" style="background: {{ hex }};"></span>
+      <span class="sg-label">
+        {{# label }}{{ label }} <br />{{/ label}}
+        {{# variable }}{{ variable }} <br />{{/ variable}}
+        {{ hex }}
+      </span>
+    </li>
+  {{/colors.brandSecondaryTint}}
+</ul>

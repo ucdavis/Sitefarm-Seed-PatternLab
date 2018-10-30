@@ -1,0 +1,26 @@
+.DS_Store
+public
+config.ini
+latest-change.txt
+*-ck.js
+*.sass-cache/
+
+# Styleguide specific stuff
+dependencyGraph.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+
+# Dependencies
+bower_components
+node_modules
+
+# Ignore Sass map files since they only work locally anyway
+*.css.map
+
+# IDE plugins
+.idea
+
+# Custom Local config
+/gulp-config.local.yml

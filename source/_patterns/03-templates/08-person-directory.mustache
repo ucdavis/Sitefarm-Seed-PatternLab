@@ -1,0 +1,56 @@
+<div class="page">
+  {{> organisms-header }}
+    <div class="l-main" role="main">
+
+    {{> organisms-page-title }}
+
+    <div class="l-container">
+      {{> molecules-breadcrumbs }}
+    </div>
+
+    <div class="l-container l-basic">
+
+      <div class="l-sidebar">
+        <div class="panel o-box">
+          <h2 class="panel__title">Filter Results</h2>
+          <div class="panel__content">
+            <div class="field-container">
+              <label for="firstname">First Name</label>
+              <input type="text" id="firstname">
+            </div>
+            <div class="field-container">
+              <label for="lastname">Last Name</label>
+              <input type="text" id="lastname">
+            </div>
+            <div class="field-container">
+              <label for="position_title">{{ person.title }}</label>
+              <input type="text" id="position_title">
+            </div>
+            <div class="field-container">
+              <label for="unit">{{ person.dept }}</label>
+              <input type="text" id="unit">
+            </div>
+            <div class="field-container">
+              <label for="unit">{{ person.type }}</label>
+              <input type="text" id="unit">
+            </div>
+            <input type="submit" class="btn--primary u-align--right" value="Apply Filter">
+          </div>
+        </div>
+      </div><!--end .l-sidebar-second-->
+
+      <div class="l-content">
+        <div class="panel o-box--large">
+          {{# peopleGroups }}
+            <h2>{{ peopleGroupTitle }}</h2>
+            {{# peopleList }}
+              {{> molecules-teaser:vm-teaser--grouped }}
+            {{/ peopleList }}
+          {{/peopleGroups}}
+        </div>
+      </div><!--end .l-content-->
+
+    </div>
+  </div><!--End role=main-->
+  {{> organisms-footer }}
+</div>

@@ -1,0 +1,46 @@
+# Config options can be found at https://github.com/ucdavis/ucd-theme-tasks/blob/master/docs/config.md
+# This config may be overridden by creating a gulp-config.local.yml file
+css:
+  enabled: true
+  src:
+    - source/sass/**/*.scss
+  vendor:
+    - source/css/vendor/**/*.css
+    - '!node_modules/superfish/dist/css/megafish.css'
+    - '!node_modules/superfish/dist/css/superfish-navbar.css'
+    - '!node_modules/superfish/dist/css/superfish-vertical.css'
+  dest: public/css/
+  lint:
+    extraSrc:
+      - '!source/sass/0_utility/utility_helpers/_u-space.scss'
+  outputStyle: compressed
+  sassdoc:
+    enabled: true
+    basePath: https://bitbucket.org/ietwebdev/sitefarm-pattern-lab-one/src/master/source/sass
+
+js:
+  enabled: true
+  src:
+    - source/js/**/*.js
+    - source/js/vendor/**/*.js
+  externals: false
+  dest: public/js/
+  eslint:
+    enabled: false
+    extraSrc:
+      - '!source/js/vendor/**/*.js'
+
+nodeFiles:
+  enabled: true
+
+browserSync:
+  enabled: true
+  startPath: 'public'
+
+themeSync:
+  enabled: false
+  newsite: false
+  # dest: '../theme/' # This is the destination of the CMS theme these source files will be ported to
+
+patternLab:
+  enabled: true

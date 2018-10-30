@@ -1,0 +1,28 @@
+{{# heroBanner }}
+<section class="hero-banner {{ styleModifier }}">
+  <div class="hero-banner__image">
+    {{> atoms-hero }}
+  </div>
+
+  <div class="hero-banner__body">
+    <div class="hero-banner__title">{{ title }}</div>
+
+    <div class="hero-banner__summary">
+      <p>{{ excerpt.short }}</p>
+    </div>
+
+    <div class="hero-banner__button-group">
+      {{# btnVideo }}
+        <a href="#" class="hero-banner__button hero-banner__video-play">Play Video</a>
+      {{/ btnVideo }}
+      <a href="{{ url }}" class="hero-banner__button">{{ btnText }}</a>
+    </div>
+  </div>
+
+  {{# btnVideo }}
+    <div class="hero-banner__video-popup u-hidden">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/PAwB_t_iM7U" frameborder="0" allowfullscreen></iframe>
+    </div>
+  {{/ btnVideo }}
+</section>
+{{/ heroBanner }}

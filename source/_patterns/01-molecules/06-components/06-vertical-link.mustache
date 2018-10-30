@@ -1,0 +1,15 @@
+<a href="{{ url }}" class="vertical-link {{ styleModifier }} {{ icon-class }}">
+  {{# hasFigure }}
+    <div class="vertical-link__figure">
+    {{# icon }}
+      <i class="vertical-link__image {{ icon }} fa-3x"></i>
+    {{/ icon }}
+    {{^ icon }}
+      {{> atoms-thumbnail:vertical-link__image }}
+    {{/ icon }}
+    </div>
+  {{/ hasFigure }}
+  <div class="vertical-link__title">
+    {{ actionText }}
+  </div>
+</a>

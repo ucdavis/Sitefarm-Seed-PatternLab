@@ -1,0 +1,6 @@
+// Fix to prevent horizontal scroll when using Bootstrap Grids
+// Add this to the outermost div
+// http://stackoverflow.com/questions/14270084/overflow-xhidden-doesnt-prevent-content-from-overflowing-in-mobile-browsers
+.l-page {
+  overflow-x: hidden;
+}

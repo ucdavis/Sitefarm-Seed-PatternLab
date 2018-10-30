@@ -1,0 +1,18 @@
+<section class="vm-card">
+  <header class="vm-card__header o-media">
+    <div class="vm-card__figure o-media__figure">
+      <a href="{{ url }}">{{> atoms-profile-image }}</a>
+    </div>
+    <div class="o-media__body">
+      <h3 class="vm-card__title"><a href="{{ url }}">{{ person.headline }}</a></h3>
+      <div><strong>{{ person.title }}</strong></div>
+      <div>{{ person.dept }}</div>
+    </div>
+  </header>
+
+  <div class="vm-card__summary">{{{ person.summary }}}</div>
+
+  <footer class="vm-card__btn">
+    <a href="#" class="btn btn--sm">read more</a>
+  </footer>
+</section>

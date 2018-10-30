@@ -1,0 +1,24 @@
+// Basic sidebar layout.
+.l-basic {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-areas:
+  "content"
+  "sidebar";
+
+  @include breakpoint($bp-medium--up) {
+    grid-template-columns: 2.5fr 1fr;
+    grid-template-areas:
+    "content sidebar";
+  }
+
+  .l-content {
+    grid-area: content;
+    min-width: 0; // https://github.com/kenwheeler/slick/issues/982#issuecomment-345057850
+  }
+
+  .l-sidebar {
+    grid-area: sidebar;
+    min-width: 0;
+  }
+}

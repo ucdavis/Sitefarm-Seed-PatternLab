@@ -1,0 +1,31 @@
+<div class="page">
+  {{> organisms-header }}
+  <main class="l-main">
+
+    {{> organisms-page-title }}
+
+    <div class="l-container">
+      {{> molecules-breadcrumbs }}
+    </div>
+
+    <div class="l-container l-basic">
+
+      <div class="l-sidebar">
+        <div class="panel o-box">
+          <h2 class="panel__title">Filter by Category</h2>
+          <div class="panel__content">
+            {{> molecules-category-filter }}
+          </div>
+        </div>
+      </div><!--end .l-sidebar-first-->
+
+      <div class="l-content">
+        <div class="panel o-box--large">
+
+        </div>
+      </div><!--end .l-content-->
+
+    </div>
+  </main><!--End role=main-->
+  {{> organisms-footer }}
+</div>

@@ -1,0 +1,25 @@
+<div class="page">
+  {{> organisms-header }}
+  <main class="l-main">
+
+    {{> organisms-page-title }}
+
+    <div class="l-container">
+      {{> molecules-breadcrumbs }}
+    </div>
+
+    <div class="l-container">
+
+      <div class="l-content">
+        <div class="panel o-box--large">
+          {{# taxonomyResults }}
+            {{> molecules-teaser }}
+          {{/ taxonomyResults }}
+          {{> molecules-pagination }}
+        </div>
+      </div><!--end .l-content-->
+
+    </div>
+  </main><!--End role=main-->
+  {{> organisms-footer }}
+</div>

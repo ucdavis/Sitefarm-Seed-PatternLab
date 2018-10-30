@@ -1,0 +1,37 @@
+<div class="page">
+  {{> organisms-header }}
+  <main class="l-main">
+
+    {{> organisms-page-title }}
+
+    <div class="l-container">
+      {{> molecules-breadcrumbs }}
+    </div>
+
+    <div class="l-container">
+
+      <div class="l-content">
+        <div class="panel">
+          <div>
+            {{> molecules-social-share }}
+            <p>{{ excerpt.short }}</p>
+          </div>
+
+          {{> molecules-image-gallery }}
+
+          {{# singleCategory }}
+            <h2 class="heading--auxiliary">Category</h2>
+            <div class="u-clearfix">
+              {{> molecules-tags }}
+            </div>
+          {{/ singleCategory }}
+
+          <h2 class="heading--auxiliary">Tags</h2>
+          {{> molecules-tags }}
+        </div>
+      </div><!--end .l-content-->
+
+    </div>
+  </main><!--End role=main-->
+  {{> organisms-footer }}
+</div>

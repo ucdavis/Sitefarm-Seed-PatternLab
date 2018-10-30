@@ -1,0 +1,17 @@
+<a href="{{ url }}" class="focal-link {{ brandClass }} {{ styleModifier }}">
+  {{# icon }}
+  <div class="focal-link__figure category-brand__background focal-link__icon">
+    <i class="{{ icon }} fa-2x"></i>
+  </div>
+  {{/ icon}}
+
+  {{^ icon }}
+    <div class="focal-link__figure">
+      {{> atoms-focal-link }}
+    </div>
+  {{/ icon}}
+
+  <div class="focal-link__body">
+    <strong>{{ actionText }}</strong>
+  </div>
+</a>

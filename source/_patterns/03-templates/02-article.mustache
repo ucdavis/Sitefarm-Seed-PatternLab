@@ -1,0 +1,63 @@
+<div class="page">
+  {{> organisms-header }}
+  <main class="l-main">
+
+    {{> organisms-page-title }}
+
+    <div class="l-container">
+      {{> molecules-breadcrumbs }}
+    </div>
+
+    <div class="l-container l-basic">
+
+      <div class="l-content">
+        <div class="panel o-box--large">
+          <!-- Featured Image -->
+          {{> atoms-landscape-16x9 }}
+
+          {{> molecules-social-share }}
+          <div class="meta-info">
+            <span class="meta-info__data">{{ month.long }} {{ day.short }},  {{ year.long }}</span>
+          </div>
+          <div class="byline u-space-bottom">
+            Story {{> molecules-byline }}
+          </div>
+          <div class="u-clearfix">
+            {{> organisms-article-body }}
+          </div>
+
+          {{# singleCategory }}
+            <h2 class="heading--auxiliary">Category</h2>
+            {{> molecules-tags }}
+          {{/ singleCategory }}
+
+          <h2 class="heading--auxiliary">Tags</h2>
+          {{> molecules-tags }}
+        </div>
+      </div><!--end .l-content-->
+
+      <div class="l-sidebar">
+        <div class="panel o-box">
+          {{> molecules-card }}
+        </div>
+        <div class="panel o-box">
+          <h2 class="panel__title">People</h2>
+          {{# peopleListShort }}
+            {{> molecules-listing }}
+          {{/ peopleListShort }}
+        </div>
+        <div class="panel o-box">
+          <h2 class="panel__title">Categories</h2>
+          {{> molecules-category-filter }}
+        </div>
+        <div class="panel o-box">
+          <h2 class="panel__title">Related Articles</h2>
+          {{> organisms-article-list }}
+        </div>
+      </div><!--end .l-sidebar-second-->
+
+    </div><!--End .l-container-->
+
+  </main><!--End role=main-->
+  {{> organisms-footer }}
+</div>

@@ -1,0 +1,43 @@
+# Default config can be found at https://github.com/ucdavis/ucd-theme-tasks/blob/master/config.default.js
+# This config may be overridden by creating a gulp-config.local.yml file
+css:
+  enabled: true
+  src:
+    - sass/**/*.scss
+    - '!sass/1_pattern_lab/**/*'
+  vendor:
+    - sass/vendor/**/*.css
+  dest: dist/
+  lint:
+    extraSrc:
+      - '!sass/1_pattern_lab/**/*'
+  sassdoc:
+    enabled: false
+
+js:
+  enabled: true
+  src:
+    - js/pattern_lab/**/*.js
+    - js/vendor/**/*.js
+    - js/**/*.js
+#  externals:
+#    jquery: 'jQuery'
+  dest: dist/
+  destName: scripts.js
+  eslint:
+    enabled: false
+    extraSrc:
+      - '!js/vendor/**/*.js'
+      - '!js/pattern_lab/**/*.js'
+
+nodeFiles:
+  enabled: true
+
+browserSync:
+  enabled: true
+  startPath: '/'
+
+# This is the destination of the CMS theme these source files will be ported to
+themeSync:
+  enabled: false
+  src: ../pattern_lab/ # This should be overridden per custom install

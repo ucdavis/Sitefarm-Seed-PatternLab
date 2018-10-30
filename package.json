@@ -1,0 +1,30 @@
+{
+  "name": "patternlab-seed-pl",
+  "version": "1.0.0",
+  "description": "Pattern Lab for a SiteFarm Seed theme",
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "photoswipe": "^4.1.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "main": "gulpfile.js",
+  "private": true,
+  "scripts": {
+    "start": "npx gulp",
+    "serve": "http-server public -c-1",
+    "serve:ci": "http-server public -c-1 --silent",
+    "e2e": "npm run serve:ci & cypress open",
+    "e2e:ci": "npm run serve:ci & cypress run"
+  },
+  "devDependencies": {
+    "@pattern-lab/core": "^3.0.0-beta.1",
+    "@pattern-lab/engine-mustache": "^2.0.0-beta.0",
+    "@pattern-lab/uikit-workshop": "^1.0.0-beta.0",
+    "cypress": "^3.1.0",
+    "http-server": "^0.11.1",
+    "ucd-theme-tasks": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=8.9.0"
+  }
+}

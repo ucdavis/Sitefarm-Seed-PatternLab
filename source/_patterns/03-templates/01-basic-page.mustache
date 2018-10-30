@@ -1,0 +1,46 @@
+<div class="page">
+  {{> organisms-header }}
+  <main class="l-main">
+
+    {{> organisms-page-title }}
+
+    {{# emergency }}
+      {{> molecules-alert-error }}
+    {{/ emergency }}
+
+    <div class="l-container">
+      {{> molecules-breadcrumbs }}
+    </div>
+
+    <div class="l-container l-basic">
+
+      <div class="l-content">
+        <div class="panel o-box--large">
+          <h2 class="heading--underline">{{ headline.short }}</h2>
+          <div class="u-align--right u-width--half">
+            {{> molecules-figure-with-caption }}
+          </div>
+          {{ excerpt.long }}
+          <h3>{{ headline.short }}</h3>
+          {{ excerpt.short }}
+          {{> atoms-unordered }}
+
+          <h2 class="heading--auxiliary">Documents</h2>
+          {{> atoms-list-download }}
+
+          <h2 class="heading--auxiliary">Tags</h2>
+          {{> molecules-tags }}
+        </div>
+      </div><!--end .l-content-->
+
+      <div class="l-sidebar">
+        <div class="panel">
+          <h2 class="panel__title">Follow Us</h2>
+          {{> molecules-social-follow }}
+        </div>
+      </div><!--end .l-sidebar-second-->
+
+    </div>
+  </main><!--End role=main-->
+  {{> organisms-footer }}
+</div>
