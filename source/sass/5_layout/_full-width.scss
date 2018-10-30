@@ -1,4 +1,4 @@
-// Full Width Region to break outside container
+// Full Width Region to break outside of container.
 .l-full-width {
   @include nested-context($container-width, center);
 

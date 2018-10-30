@@ -4,7 +4,7 @@ a {
   outline: 0;
 
   &:focus {
-    @include set-focus();
+    outline: inherit;
   }
 
   &:active {

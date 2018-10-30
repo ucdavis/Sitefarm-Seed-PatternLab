@@ -63,15 +63,6 @@
   border: 1px solid $brand--primary-90;
   border-collapse: inherit;
 
-  mark {
-    @include font-size(11px);
-    background-color: $mu-brick;
-    border-radius: $spacer--small;
-    color: $white;
-    padding: $spacer--tiny $spacer--small;
-    text-transform: capitalize;
-  }
-
   a {
     text-decoration: underline;
   }
@@ -95,7 +86,7 @@
     .active {
       border-left: 1px solid $brand--primary-60;
       border-right: 1px solid $brand--primary-60;
-      background-color: lighten($sage-green, 25);
+      background-color: lighten($brand--success, 25);
 
       .active {
         color: $brand--primary;
@@ -132,7 +123,7 @@
   }
 
   .active {
-    background-color: lighten($sage-green, 30);
+    background-color: lighten($brand--success, 30);
     border-left: 1px solid $brand--primary-40;
     border-right: 1px solid $brand--primary-40;
   }

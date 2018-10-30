@@ -7,7 +7,6 @@
 @mixin button() {
   border: 1px solid $brand--primary;
   display: inline-block;
-  margin-bottom: 0; // For input.btn
   padding: $spacer--small $spacer;
   background-color: transparent;
   color: $link-color--secondary;
@@ -49,13 +48,6 @@
   font-style: italic;
 }
 
-/// Button: Alternate Style `Modifier`
-%btn--alt {
-  @extend %btn;
-  border: 0;
-  background-color: $brand--gray;
-}
-
 /// Button: Inverted Style `Modifier`
 %btn--invert {
   @extend %btn;
@@ -78,25 +70,6 @@
   @include button-disabled;
 }
 
-/// Button: Large `Modifier`
-%btn--lg {
-  @include font-size($font-size--large);
-  padding: $spacer--small $spacer;
-}
-
-/// Button: Small `Modifier`
-%btn--sm {
-  padding: $spacer--tiny $spacer--small;
-  font-weight: $font-weight--bold;
-  font-style: normal;
-}
-
-/// Button: Full Width `Modifier`
-%btn--block {
-  display: block;
-  width: 100%;
-}
-
 
 // Assign placeholders to classes
 .btn {
@@ -109,10 +82,6 @@
   @extend %btn--primary;
 }
 
-.btn--alt {
-  @extend %btn--alt;
-}
-
 .btn--invert {
   @extend %btn--invert;
 }
@@ -121,16 +90,4 @@
 .btn[disabled],
 fieldset[disabled] .btn {
   @extend %btn--disabled;
-}
-
-.btn--lg {
-  @extend %btn--lg;
-}
-
-.btn--sm {
-  @extend %btn--sm;
-}
-
-.btn--block {
-  @extend %btn--block;
 }

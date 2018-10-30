@@ -8,7 +8,7 @@
     "m": false,
     "l": false,
     "full": false,
-    "random": false,
+    "random": true,
     "disco": false,
     "hay": true,
     "mqs": false,

@@ -18,7 +18,7 @@
     top: -$spacer * 3;
     z-index: $zindex-component-fg;
     padding: $spacer--tiny;
-    background-color: $ucd-blue;
+    background-color: $brand--primary;
     color: $white;
     font-weight: $font-weight--bold;
     font-style: normal;
@@ -43,16 +43,6 @@
     img {
       width: 100%;
       transition: all $transition-time ease-in-out;
-    }
-
-    &:after {
-      @include force-anti-alias();
-      @include triangle($white, 200px, 1600px, 45);
-      bottom: -1px;
-      position: absolute;
-      z-index: $zindex-component-mg;
-      transition: border $transition-time ease-in-out;
-      content: " ";
     }
   }
 
@@ -79,10 +69,6 @@
       transform: scale(1.05);
     }
 
-    .marketing-highlight__image:after {
-      @include triangle($white, 230px, 1600px, 45);
-    }
-
     .marketing-highlight__type {
       transform: scale(1.1);
     }
@@ -92,20 +78,8 @@
 // Alternate style
 .marketing-highlight--featured {
 
-  .marketing-highlight__image:after {
-    @include triangle($white, 100px, 1600px, -45);
-    right: 0;
-  }
-
-  &:hover {
-
-    .marketing-highlight__image:after {
-      @include triangle($white, 130px, 1600px, -45);
-    }
-  }
-
   .marketing-highlight__title {
-    @include heading--highlight(false);
+    @include heading--highlight();
   }
 
   .marketing-highlight__body {

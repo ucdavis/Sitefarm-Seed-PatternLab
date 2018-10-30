@@ -81,8 +81,6 @@ This folder is used for sitewide changes via a class on the `<body>` tag. This i
 ## Files
 **_hacks.scss**: this partial should be used sparingly when something needs to be done very quickly without time to put a style in its proper place. This file overrides everything so it should be cleaned up regularly so that styles go in their proper place.
 
-**no-query.scss**: This is an auto generated duplicate of **style.css** but without media queries. It is used as a legacy fallback for ie7 & ie8. Adding "true" to any @breakpoint() mixin will place the contents of that mixin in this file.
-
 **style.scss**: This is the main file which will be rendered into **style.css**. It contains all of the SASS libraries and partials necessary to build CSS. 
 
 Don't put any styles directly into **no-query.scss** or **style.scss**!

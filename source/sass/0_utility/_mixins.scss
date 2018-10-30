@@ -55,13 +55,6 @@
   overflow: hidden;
 }
 
-/// Reset the Heading tags which will be used in a list of items
-@mixin reset-list-titles() {
-  @include font-size(16px);
-  font-style: normal;
-  margin-bottom: 0;
-}
-
 /// Create a circle border around an element
 /// @param {string} $border-size [1px] - Border size of the circle
 /// @param {string} $border-color [$brand--gray] - Color used for the border
@@ -83,27 +76,6 @@
 /// Transform scale smoothes rough borders in some browsers (aka Firefox)
 @mixin force-anti-alias() {
   transform: scale(.9999);
-}
-
-/// Base focus styles. This will set what kind of style will be applied when an
-/// element has focus.
-/// @param {string} $type [default] - default, form, or reset
-@mixin set-focus($type: "default") {
-
-  @if $type == "default" {
-    outline: thin dotted;
-    outline-offset: $spacer--tiny;
-  }
-  @else if $type == "form" {
-    outline: none;
-    background-color: $input-bg-focus;
-    border-color: $brand--secondary;
-  }
-  @else if $type == "reset" {
-    outline: none;
-    background-color: inherit;
-    text-decoration: none;
-  }
 }
 
 /// Remove default form input styles
@@ -131,106 +103,6 @@
   width: auto;
 }
 
-/// Responsive sprite
-///
-/// The sprite image should be horizontal and each image in the sprite should be equally spaced.
-/// @param {string} $sprite-url - URL path to the background sprite image
-/// @param {list} $images - Array of all the individual icon/image names
-/// @param {string} $width [100%] - How wide a single icon/image from the sprite will be
-/// @param {string} $padding-bottom [100%] - Total height the icon/image will be
-@mixin responsive-sprite($sprite-url, $images: (), $width: 100%, $padding-bottom: 100%) {
-  display: block;
-  padding-bottom: $padding-bottom;
-  height: 0;
-  width: $width;
-  background-image: url($sprite-url);
-  background-repeat: no-repeat;
-  background-size: 100% * length($images);
-  background-position: 0 0;
-
-  $ratio: 100% / (length($images) - 1);
-
-  @for $i from 1 through length($images) {
-    $image: nth($images, $i);
-
-    &--#{$image} {
-      background-position: ($ratio * $i - 1) 0;
-    }
-  }
-}
-
-/// Standard Sprite generator
-///
-/// The sprite image should be horizontal and each image in the sprite should be equally spaced.
-/// @param {string} $sprite-url - URL path to the background sprite image
-/// @param {list} $images - Array of all the individual icon/image names
-/// @param {string} $width [50px] - How wide a single icon/image from the sprite will be
-/// @param {string} $height [50px] - Total height the icon/image will be
-@mixin horizontal-sprite($sprite-url, $images: (), $width: 50px, $height: 50px) {
-  display: block;
-  height: $height;
-  width: $width;
-  background-image: url($sprite-url);
-  background-repeat: no-repeat;
-  background-position: 0 0;
-
-  @for $i from 1 through length($images) {
-    $image: nth($images, $i);
-
-    &--#{$image} {
-      background-position: -($width * ($i - 1)) 0;
-    }
-  }
-}
-
-/// Vertical Sprite position modifier generator
-///
-/// This will create a modifier class for each image in a vertical sprite
-/// The sprite image should be vertical and each image in the sprite should be equally spaced.
-/// @param {list} $images - Array of all the individual icon/image names
-/// @param {string} $size [50px] - Total height the icon/image will be
-@mixin vertical-sprite-position($images: (), $size: 100px) {
-  @for $i from 1 through length($images) {
-    $image: nth($images, $i);
-
-    &--#{$image} {
-      background-position: 0 (-($size * ($i - 1)));
-    }
-  }
-}
-
-/// Add padding in so that content is padded to the width of the current container
-@mixin container-content-padding() {
-  @include breakpoint($bp-medium--up, true) {
-    padding-left: $container-space--md;
-    padding-right: $container-space--md;
-  }
-
-  @include breakpoint($bp-wide--up) {
-    padding-left: $container-space--lg;
-    padding-right: $container-space--lg;
-  }
-
-  @include breakpoint($bp-huge) {
-    padding-left: $container-space--xlg;
-    padding-right: $container-space--xlg;
-  }
-}
-
-// Font Generator - based on the Style Linking technique described at https://www.smashingmagazine.com/2013/02/setting-weights-and-styles-at-font-face-declaration/
-@mixin font-face($font-family, $file-path, $font-weight, $font-style) {
-  @font-face {
-    font-family: $font-family;
-    src: url("#{$file-path}.eot");
-    src: url("#{$file-path}.eot?#iefix") format("embedded-opentype"),
-    url("#{$file-path}.woff") format("woff"),
-    url("#{$file-path}.ttf") format("truetype"),
-    url("#{$file-path}.svg##{$font-family}") format("svg");
-    font-weight: $font-weight;
-    font-style: $font-style;
-  }
-}
-
 // Primary Link Styling
 @mixin link-style() {
   color: $link-color;
@@ -250,19 +122,5 @@
   &:hover {
     color: $link-color-hover--secondary;
     text-decoration: none;
-  }
-}
-
-// Heading Link Style
-@mixin link-style-heading() {
-
-  a {
-    color: $link-color--secondary;
-    text-decoration: none;
-
-    &:hover {
-      color: $link-color-hover--secondary;
-      text-decoration: underline;
-    }
   }
 }

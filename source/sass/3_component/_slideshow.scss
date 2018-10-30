@@ -65,7 +65,7 @@ $slideshow-thumbnails-button-width: 30px;
     margin: 0 $spacer $spacer;
     padding: 0 $spacer--tiny;
     background-color: $white;
-    color: $sky-blue;
+    color: $brand--info;
     font-weight: bold;
 
     @include breakpoint($bp-small--up) {
@@ -85,7 +85,7 @@ $slideshow-thumbnails-button-width: 30px;
     display: inline-block;
     margin-left: -$spacer--tiny;
     padding: $spacer--small;
-    background-color: $sky-blue;
+    background-color: $brand--info;
     color: $white;
   }
 

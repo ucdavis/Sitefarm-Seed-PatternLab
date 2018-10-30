@@ -24,8 +24,7 @@
   }
 
   &__title {
-    @include heading--overlay();
-    background-color: $ucd-blue;
+    background-color: $brand--primary;
 
     &:after {
       content: none;

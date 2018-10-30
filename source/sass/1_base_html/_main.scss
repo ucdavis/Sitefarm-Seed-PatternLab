@@ -7,7 +7,7 @@ html {
   font-size: $font-size;
 
   @include breakpoint($bp-huge) {
-    font-size: 17px;
+    font-size: 20px;
   }
 }
 

@@ -1,4 +1,4 @@
-image: thecodingmachine/php:7.2-v1-cli-node10
+image: cypress/base:10
 
 pipelines:
   default:
@@ -17,8 +17,6 @@ pipelines:
           - public/**
     - step:
         name: E2E Tests with Cypress
-        # Use the official cypress docker container.
-        image: cypress/base:10
         caches:
           - node
           - npm
@@ -29,7 +27,9 @@ pipelines:
     master:
       - step:
           name: Deploy to AWS
+          image: thecodingmachine/php:7.2-v1-cli-node10
           caches:
+            - node
             - npm
           script:
             - sudo apt-get update

@@ -9,11 +9,6 @@ video {
   height: auto;
 }
 
-// Override max-width 100% for ie8
-.ie8 img {
-  max-width: none;
-}
-
 iframe {
   margin-bottom: $spacer;
   max-width: 100%;

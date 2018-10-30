@@ -14,8 +14,7 @@ strong,
 blockquote {
   @include font-size(18px);
   border-left: 5px solid $brand--primary-20;
-  margin: inherit;
-  padding-left: $spacer + $spacer--tiny;
+  padding-left: $spacer;
   color: $brand--primary-90;
   font-style: italic;
 }

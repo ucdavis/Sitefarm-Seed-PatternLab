@@ -4,6 +4,6 @@ describe('Home Page', () => {
   })
 
   it('Site Name', () => {
-    cy.get('.header__site-name').should('have.text', 'SiteFarm Seed')
+    cy.get('.header h1').should('have.text', 'SiteFarm Seed')
   })
 })

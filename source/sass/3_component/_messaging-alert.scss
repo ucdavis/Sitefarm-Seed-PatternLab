@@ -1,21 +1,14 @@
 // alert message
 .alert {
-  @include font-size(16px);
-  @include container-content-padding();
-  margin: 0 0 $spacer;
+  font-size: 1rem;
+  margin-bottom: $spacer;
   padding: $spacer--large;
-  background-color: lighten($rec-pool-blue, 60%);
-  color: $rec-pool-blue;
+  //background-color: lighten($rec-pool-blue, 60%);
+  //color: $rec-pool-blue;
   font-style: italic;
 
-  // remove the extra padding when placed inside a container
-  .l-container & {
-    padding: $spacer--large;
-    border-radius: 8px;
-  }
-
   &--success {
-    background-color: lighten($sunny-grass, 40%);
+    background-color: lighten($brand--success, 40%);
     color: $brand--success;
   }
 
@@ -27,23 +20,5 @@
   &--error {
     background-color: lighten($brand--danger, 50%);
     color: $brand--danger;
-  }
-
-  // Remove bottom margin
-  &--flush {
-    margin-bottom: 0;
-  }
-
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-
-  .button {
-    margin-bottom: $spacer--small;
-  }
-
-  li .button {
-    margin-left: -$spacer;
   }
 }

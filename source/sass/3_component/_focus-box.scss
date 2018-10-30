@@ -9,7 +9,7 @@
   }
 
   &__title {
-    @include heading--invert-box();
+    @include heading--invert();
   }
 
   &__body {

@@ -7,96 +7,10 @@
 
 $black:                 #000;
 $white:                 #fff;
-
-// UC Davis colors - http://marketingtoolbox.ucdavis.edu/identity-guide/color.html
-// -------------------------
-
-$ucd-blue:              #002855;
-$ucd-gold:              #daaa00;
-
-// Tints
-$ucd-blue-100:          $ucd-blue;
-$ucd-blue-90:           #1a3e68;
-$ucd-blue-80:           #335379;
-$ucd-blue-70:           #4d688c;
-$ucd-blue-60:           #667d9d;
-$ucd-blue-50:           #7f93ae;
-$ucd-blue-40:           #99a9bf;
-$ucd-blue-30:           #b2bdcf;
-$ucd-blue-20:           #ccd4e0;
-$ucd-blue-10:           #e5e9ef;
-
-$ucd-gold-100:          $ucd-gold;
-$ucd-gold-90:           #deb31a;
-$ucd-gold-80:           #e1bb33;
-$ucd-gold-70:           #e5c44d;
-$ucd-gold-60:           #e9cc66;
-$ucd-gold-50:           #ecd47f;
-$ucd-gold-40:           #f0dd99;
-$ucd-gold-30:           #f4e5b2;
-$ucd-gold-20:           #f8eecc;
-$ucd-gold-10:           #fbf6e5;
-
-
-// UC Davis secondary colors
-// -------------------------
-
-// Bright Colors
-$unitrans-red:          #ba0c2f;
-$western-redbud:        #c6007e;
-$california-poppy:      #ed8b00;
-$golden-lupine:         #ffcd00;
-$sunny-grass:           #78be20;
-$sky-blue:              #00b5e2;
-$rec-pool-blue:         #008eaa;
-$wine-grape:            #642667;
-
-// Neutral colors
-$mu-brick:              #c26e60;
-$hart-hall-stucco:      #e6a65d;
-$sage-green:            #9caf88;
-$evergreen:             #00573f;
-$winter-sky-gray:       #5b7f95;
-$centennial-walk-gray:  #b1b3b3;
-$cork-oak:              #aca39a;
-$south-hall-brown:      #4f2c1d;
-
-// Category Brands
-$category-brands: (
-  ("admin-blue",            $ucd-blue-80),
-  ("unitrans-red",          $unitrans-red),
-  ("western-redbud",        $western-redbud),
-  ("california-poppy",      $california-poppy),
-  ("golden-lupine",         $golden-lupine),
-  ("sunny-grass",           $sunny-grass),
-  ("sky-blue",              $sky-blue),
-  ("rec-pool-blue",         $rec-pool-blue),
-  ("wine-grape",            $wine-grape),
-  ("mu-brick",              $mu-brick),
-  ("hart-hall-stucco",      $hart-hall-stucco),
-  ("sage-green",            $sage-green),
-  ("evergreen",             $evergreen),
-  ("winter-sky-gray",       $winter-sky-gray),
-  ("centennial-walk-gray",  $centennial-walk-gray),
-  ("cork-oak",              $cork-oak),
-  ("south-hall-brown",      $south-hall-brown),
-);
-
-// Category Brands Accessibility Alteration for Contrast
-$category-brands--dark-on-light:
-"california-poppy"
-"golden-lupine"
-"sunny-grass"
-"sky-blue"
-"mu-brick"
-"hart-hall-stucco"
-"sage-green"
-"centennial-walk-gray"
-"cork-oak";
+$blue:                  #002855;
+$gold:                  #daaa00;
 
 // Grays
-// -------------------------
-
 $gray-darker:           lighten($black, 13.5%) !default; // #222
 $gray-dark:             lighten($black, 20%) !default;   // #333
 $gray:                  lighten($black, 33.5%) !default; // #555
@@ -104,18 +18,18 @@ $gray-light:            lighten($black, 60%) !default;   // #999
 $gray-lighter:          lighten($black, 93.5%) !default; // #eee
 
 
-// Brand colors
+// Brand Colors
 // -------------------------
 
-$brand--primary:        $ucd-blue !default;
-$brand--secondary:      $ucd-gold !default;
-$brand--success:        $evergreen !default;
-$brand--warning:        $california-poppy !default;
-$brand--danger:         $unitrans-red !default;
-$brand--info:           $winter-sky-gray !default;
-$brand--gray:           $ucd-blue-10 !default;
+$brand--primary:        $blue !default;
+$brand--secondary:      $gold !default;
+$brand--success:        #00573f !default;
+$brand--warning:        #ed8b00 !default;
+$brand--danger:         #ba0c2f !default;
+$brand--info:           #5b7f95 !default;
+$brand--gray:           #e5e9ef !default;
 
-// Tints - It is preferable to use these as opposed to fixed UC Davis colors
+// Brand Color Tints
 $brand--primary-90:     tint($brand--primary, 10) !default;
 $brand--primary-80:     tint($brand--primary, 19.9) !default;
 $brand--primary-70:     tint($brand--primary, 30) !default;
@@ -151,7 +65,7 @@ $link-color-hover--secondary: darken($link-color--secondary, 15%) !default;
 
 $font-color:               #333 !default;
 
-$font-family--sans-serif:  "proxima-nova", "Lucida Grande", "Lucida Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family--sans-serif:  "Lucida Grande", "Lucida Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
 
 $font-family--serif:       Georgia, "Times New Roman", Times, serif !default;
 $font-family--monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
@@ -193,17 +107,13 @@ $border-radius:         4px !default;
 $border-radius--large:  6px !default;
 $border-radius--small:  3px !default;
 
-
-// Components
-// -------------------------
+// Tables
 $table-border-color:    $brand--primary-50 !default;
 $table-bg-accent:       $brand--primary-10 !default;
 $table-bg-hover:        $brand--secondary-10 !default;
 
 
 // Forms
-// -------------------------
-
 $input-bg:                  #fff !default;
 $input-bg--disabled:        $gray-lighter !default;
 
@@ -227,12 +137,6 @@ $legend-border-color:       #e5e5e5 !default;
 // Hr border color
 $hr-border:                   $brand--primary !default;
 
-// Horizontal forms & lists
-$component-offset-horizontal: 180px !default;
-
-// Off-canvas Tray
-$off-canvas-width:            300px !default;
-
 // Default transition time
 $transition-time:             0.3s !default;
 
@@ -251,28 +155,6 @@ $zindex-tooltip:          860 !default;
 $zindex-navbar-fixed:     1000 !default;
 $zindex-modal-background: 1100 !default;
 $zindex-modal:            1200 !default;
-
-
-// Primary Menu
-// -------------------------
-
-$menu-background-color:         $white !default;
-$menu-background-sub-color:     $brand--secondary-30 !default;
-$menu-background-color-active:  $brand--secondary !default;
-$menu-dropdown-arrow-color:     $brand--primary !default;
-// Menu dimensions
-$menu-vert-width:       310px !default;
-$menu-icon-width:       40% !default;
-$menu-height:           66px !default;
-
-
-// Header
-// -------------------------
-$header-height:             112px !default;
-$header-height--md:         72px !default;
-$header-height--sm:         50px !default;
-$header-height--scrolling:  60px !default;
-$header-bar-height:         50px !default;
 
 
 // Object Overrides
@@ -341,7 +223,7 @@ $bp-huge:               $media-huge;
 $bp-xsmall--up:         $media-xsmall;
 $bp-small--up:          $media-small;
 $bp-narrow--up:         $media-narrow;
-$bp-medium--up:         $media-medium; // This is use for ie8 and down
+$bp-medium--up:         $media-medium; // This is the standard break point to desktop.
 $bp-wide--up:           $media-wide;
 
 $bp-xsmall--down:       max-width $media-xsmall-max;
