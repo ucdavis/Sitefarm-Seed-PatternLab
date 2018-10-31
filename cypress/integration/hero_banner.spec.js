@@ -1,6 +1,6 @@
 describe('Hero Banner', () => {
   beforeEach(() => {
-    cy.visit('/patterns/02-organisms-04-hero-banner-04-hero-banner-video-button/02-organisms-04-hero-banner-04-hero-banner-video-button.rendered.html')
+    cy.visit('/patterns/01-molecules-07-hero-banner-00-hero-banner-video-button/01-molecules-07-hero-banner-00-hero-banner-video-button.rendered.html')
   })
 
   it('Click the Play Video button to launch video', () => {

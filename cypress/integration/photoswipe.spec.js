@@ -1,6 +1,6 @@
 describe('Photoswipe', () => {
   beforeEach(() => {
-    cy.visit('/patterns/01-molecules-03-media-01-image-gallery/01-molecules-03-media-01-image-gallery.rendered.html')
+    cy.visit('/patterns/01-molecules-05-media-01-image-gallery/01-molecules-05-media-01-image-gallery.rendered.html')
   })
 
   it('Activate Photoswipe by clicking the First image', () => {
