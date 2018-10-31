@@ -15,13 +15,13 @@
   "gallery": [
     {
       "img": {
-        "full": {
+        "galleryFull": {
           "src": "https://loremflickr.com/1280/720/city?lock=1",
           "alt": "Gladiator Hall",
           "width": "1280",
           "height": "720"
         },
-        "thumb": {
+        "galleryThumbnail": {
           "src": "https://loremflickr.com/640/360/city?lock=1",
           "alt": "Gladiator Hall"
         }
@@ -30,13 +30,13 @@
     },
     {
       "img": {
-        "full": {
+        "galleryFull": {
           "src": "https://loremflickr.com/1280/720/city?lock=2",
           "alt": "Math Center",
           "width": "1280",
           "height": "720"
         },
-        "thumb": {
+        "galleryThumbnail": {
           "src": "https://loremflickr.com/640/360/city?lock=2",
           "alt": "Math Center"
         }
@@ -45,13 +45,13 @@
     },
     {
       "img": {
-        "full": {
+        "galleryFull": {
           "src": "https://loremflickr.com/1280/720/city?lock=3",
           "alt": "John Doe Center",
           "width": "1280",
           "height": "720"
         },
-        "thumb": {
+        "galleryThumbnail": {
           "src": "https://loremflickr.com/640/360/city?lock=3",
           "alt": "John Doe Center"
         }
@@ -60,13 +60,13 @@
     },
     {
       "img": {
-        "full": {
+        "galleryFull": {
           "src": "https://loremflickr.com/1280/720/city?lock=4",
           "alt": "Davis Plaza",
           "width": "1280",
           "height": "720"
         },
-        "thumb": {
+        "galleryThumbnail": {
           "src": "https://loremflickr.com/640/360/city?lock=4",
           "alt": "Davis Plaza"
         }
@@ -75,13 +75,13 @@
     },
     {
       "img": {
-        "full": {
+        "galleryFull": {
           "src": "https://loremflickr.com/1280/720/city?lock=5",
           "alt": "Facility One",
           "width": "1280",
           "height": "720"
         },
-        "thumb": {
+        "galleryThumbnail": {
           "src": "https://loremflickr.com/640/360/city?lock=5",
           "alt": "Facility One"
         }
@@ -90,13 +90,13 @@
     },
     {
       "img": {
-        "full": {
+        "galleryFull": {
           "src": "https://loremflickr.com/1280/720/city?lock=6",
           "alt": "Schneider Plaza",
           "width": "1280",
           "height": "720"
         },
-        "thumb": {
+        "galleryThumbnail": {
           "src": "https://loremflickr.com/640/360/city?lock=6",
           "alt": "Schneider Plaza"
         }
@@ -105,13 +105,13 @@
     },
     {
       "img": {
-        "full": {
+        "galleryFull": {
           "src": "https://loremflickr.com/1280/720/city?lock=7",
           "alt": "Grounds Keeping",
           "width": "1280",
           "height": "720"
         },
-        "thumb": {
+        "galleryThumbnail": {
           "src": "https://loremflickr.com/640/360/city?lock=7",
           "alt": "Grounds Keeping"
         }
