@@ -121,10 +121,6 @@
       "src": "http://placehold.it/63x63",
       "alt": "Focal Link Image"
     },
-    "featured": {
-      "src": "http://placehold.it/500x375",
-      "alt": "Featured Image"
-    },
     "hero": {
       "src": "http://placehold.it/2000x770",
       "alt": "Featured Hero Image"
@@ -138,10 +134,6 @@
       "src": "http://placehold.it/320x180",
       "lazy": "http://placehold.it/320x180",
       "alt": "Slideshow Thumbnail Image"
-    },
-    "titleBanner": {
-      "src": "http://placehold.it/2000x460",
-      "alt": "Title Banner"
     },
     "focus": {
       "src": "http://placehold.it/1000x380",
@@ -449,11 +441,16 @@
     {}
   ],
   "eventList": [
-    {},
     {
+      "teaserEvent": true
+    },
+    {
+      "teaserEvent": true,
       "featured": true
     },
-    {}
+    {
+      "teaserEvent": true
+    }
   ],
   "peopleGroups": [
     {},

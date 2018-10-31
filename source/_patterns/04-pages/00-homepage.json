@@ -172,7 +172,7 @@
       "img": {
         "landscape4x3": {
           "src": "../../images/sample/homepage/climbing-wall.jpg",
-          "alt": "Esther Ebuehi poses for a photo at the rock wall inside of the Activities and Recreation Center on the UC Davis campus."
+          "alt": "Esther Ebuehi poses for a photo at the rock wall inside of the Activities and Recreation Center on the campus."
         }
       },
       "headline": {
@@ -197,7 +197,7 @@
         "short": "We’ve got more than 500 student clubs"
       },
       "highlightLabel": "Fast Fact",
-      "ctaText": "More UC Davis facts"
+      "ctaText": "More Campus facts"
     }
   ],
   "slideshow": [

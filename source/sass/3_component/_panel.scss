@@ -15,6 +15,11 @@
     background-color: transparent;
   }
 
+  &__title {
+    @include heading--primary();
+    margin-bottom: $spacer;
+  }
+
   // Auxilary title
   &--auxilary &__title {
     @include heading--auxiliary();

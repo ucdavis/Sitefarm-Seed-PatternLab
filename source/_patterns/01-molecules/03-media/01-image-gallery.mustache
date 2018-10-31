@@ -1,11 +1,11 @@
 <div class="gallery {{ styleModifier }}">
-{{# gallery }}
-  <div class="gallery__item">
-    <a data-size="{{ img.galleryFull.width }}x{{ img.galleryFull.height }}" href="{{ img.galleryFull.src }}" title="{{ caption }}">
-      {{> atoms-gallery-thumbnail }}
-    </a>
-  </div>
-{{/ gallery }}
+  {{# gallery }}
+    <div class="gallery__item">
+      <a data-size="{{ img.galleryFull.width }}x{{ img.galleryFull.height }}" href="{{ img.galleryFull.src }}" title="{{ caption }}">
+        {{> atoms-gallery-thumbnail }}
+      </a>
+    </div>
+  {{/ gallery }}
   <div class="gallery__title">
     <h2 class="heading--primary">{{ headline.short }}</h2>
   </div>
@@ -36,7 +36,6 @@
       <div class="pswp__top-bar">
 
         <!--  Controls are self-explanatory. Order can be changed. -->
-
         <div class="pswp__counter"></div>
 
         <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>

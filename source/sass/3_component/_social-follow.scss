@@ -1,6 +1,7 @@
 $social-follow-icon-width: 43px;
 
 .social-follow {
+  @include clearfix();
   background: transparent;
 
   ul {

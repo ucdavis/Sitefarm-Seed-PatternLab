@@ -3,26 +3,26 @@
   <main class="l-main">
 
     <div class="l-container">
-      {{> organisms-page-title }}
+      {{> molecules-page-title }}
       {{> molecules-breadcrumbs }}
     </div>
 
     <div class="l-container l-basic">
-
-      <div class="l-sidebar">
-        <div class="panel o-box">
-          {{> organisms-filter-people-results }}
-        </div>
-      </div>
 
       <div class="l-content">
         <div class="panel o-box">
           {{# peopleGroups }}
             <h2>{{ peopleGroupTitle }}</h2>
             {{# peopleList }}
-              {{> molecules-teaser:vm-teaser--grouped }}
+              {{> molecules-teaser }}
             {{/ peopleList }}
           {{/peopleGroups}}
+        </div>
+      </div>
+
+      <div class="l-sidebar">
+        <div class="panel o-box">
+          {{> organisms-filter-people-results }}
         </div>
       </div>
 

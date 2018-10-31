@@ -1,6 +1,8 @@
 {
   "test": true,
-  "slideshow": [{
-    "hasThumbnails": true
-  }]
+  "slideshow": [
+    {
+      "hasThumbnails": true
+    }
+  ]
 }

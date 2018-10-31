@@ -1,28 +1,19 @@
 <article class="o-media vm-teaser {{# featured }}vm-teaser--featured{{/ featured }} {{ styleModifier }}">
   {{# hasMediaFigure }}
-    <div class="o-media__figure vm-teaser__figure category category-brand__thumbnail">
+    <div class="o-media__figure vm-teaser__figure">
       <a href="{{ url }}">{{> atoms-thumbnail }}</a>
     </div>
   {{/ hasMediaFigure }}
   <div class="o-media__body">
-    {{# teaserPerson }}
-      <h3 class="vm-teaser__title"><a href="{{ url }}">{{ person.headline }}</a></h3>
-    {{/ teaserPerson }}
-    {{^ teaserPerson }}
-      <h3 class="vm-teaser__title"><a href="{{ url }}">{{ headline.medium }}</a></h3>
-    {{/ teaserPerson }}
+    <h3 class="vm-teaser__title"><a href="{{ url }}">{{ headline.medium }}</a></h3>
+
     {{# teaserByline }}
       <ul class="vm-teaser__byline">
         <li>{{> molecules-byline }}</li>
         <li>{{ month.long }} {{ day.short }}, {{ year.long }}</li>
       </ul>
     {{/ teaserByline }}
-    {{# teaserPerson }}
-      <ul class="vm-teaser__position">
-        <li><b>{{ person.title }}</b></li>
-        <li>{{ person.dept }}</li>
-      </ul>
-    {{/ teaserPerson }}
+
     {{# teaserCategorized }}
       <ul class="vm-teaser__categories">
         {{# catList }}
@@ -30,46 +21,45 @@
         {{/catList}}
       </ul>
     {{/ teaserCategorized }}
+
+    {{# teaserPerson }}
+      <ul class="vm-teaser__position list--pipe">
+        <li><b>{{ person.title }}</b></li>
+        <li>{{ person.dept }}</li>
+      </ul>
+    {{/ teaserPerson }}
+
     {{# teaserSummary }}
       <div class="vm-teaser__summary">{{ excerpt.short }}</div>
     {{/teaserSummary}}
+
     {{# teaserEvent }}
-      <ul class="vm-teaser__contact list--pipe text--smaller">
-        <li>
-          <a class="icon icon--link icon--calendar" href="{{ url }}">{{ month.short }} {{ day.short }}, {{ year.long }} <span class="date-separator">@</span> {{ hour.long }}:{{ minute.long }} {{ hour.ampm }}</a>
-        </li>
-        <li>
-          <a class="icon icon--link icon--map" href="{{ url }}">{{ event.mapLink }}</a>
-        </li>
-        <li>
-          <div class="icon icon--location">{{ address.number }} {{ address.street }}, {{ address.city }}, {{ address.state }} {{ address.zip }}</div>
-        </li>
-        <li>
-          <a class="icon icon--link icon--view-more" href="{{ url }}">{{ event.linkText }}</a>
-        </li>
+      <ul class="vm-teaser__contact list--pipe">
+        <li><a href="{{ url }}">{{ month.short }} {{ day.short }}, {{ year.long }} <span class="date-separator">@</span> {{ hour.long }}:{{ minute.long }} {{ hour.ampm }}</a></li>
+        <li><a href="{{ url }}">{{ event.mapLink }}</a></li>
+        <li>{{ address.number }} {{ address.street }}, {{ address.city }}, {{ address.state }} {{ address.zip }}</li>
+        <li><a href="{{ url }}">{{ event.linkText }}</a></li>
       </ul>
     {{/ teaserEvent }}
+
     {{# teaserPerson }}
       {{# person.contactInfo }}
-        <ul class="vm-teaser__contact list--pipe text--smaller">
-          <li>
-            <a class="icon icon--link icon--phone" href="{{ url }}">{{ phoneNum }}</a>
-          </li>
-          <li>
-            <a class="icon icon--link icon--envelope" href="{{ url }}">{{ emailAdd }}</a>
-          </li>
-          <li>
-            <a class="icon icon--link icon--web" href="{{ url }}">{{ webLink }}</a>
-          </li>
-          <li>
-            <a class="icon icon--link icon--view-more" href="{{ url }}">{{ personLink }}</a>
-          </li>
+        <ul class="vm-teaser__contact list--pipe">
+          <li><a href="{{ url }}">{{ phoneNum }}</a></li>
+          <li><a href="{{ url }}">{{ emailAdd }}</a></li>
+          <li><a href="{{ url }}">{{ webLink }}</a></li>
+          <li><a href="{{ url }}">{{ personLink }}</a></li>
         </ul>
       {{/person.contactInfo}}
-      {{# person.location }}<div class="icon icon--location">{{ person.location }}</div>{{/person.location}}
-      {{# person.address }}<div class="icon icon--map u-space-bottom--small">{{ address.number }} {{ address.street }}, {{ address.city }}, {{ address.state }} {{ address.zip }}</div>{{/ person.address }}
-      {{# person.officeHours }}<div class="text--smaller u-space-bottom"><strong>Office Hours</strong> {{ person.officeHours }}</div>{{/ person.officeHours }}
-
+      {{# person.location }}
+        <div>{{ person.location }}</div>
+      {{/person.location}}
+      {{# person.address }}
+        <div>{{ address.number }} {{ address.street }}, {{ address.city }}, {{ address.state }} {{ address.zip }}</div>
+      {{/ person.address }}
+      {{# person.officeHours }}
+        <div><strong>Office Hours</strong> {{ person.officeHours }}</div>
+      {{/ person.officeHours }}
     {{/ teaserPerson }}
   </div>
 </article>

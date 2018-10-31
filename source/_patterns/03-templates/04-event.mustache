@@ -3,7 +3,7 @@
   <main class="l-main">
 
     <div class="l-container">
-      {{> organisms-page-title }}
+      {{> molecules-page-title }}
       {{> molecules-breadcrumbs }}
     </div>
 
@@ -12,20 +12,13 @@
       <div class="l-content">
         <div class="panel o-box">
           <!-- Featured Image -->
-          <div class="u-space-bottom--large">
-            {{> atoms-landscape-16x9 }}
-          </div>
+          {{> atoms-landscape-16x9 }}
+
           <!-- Event date -->
           <h2>{{ event.date }} @ {{ event.time }}</h2>
-          <div>
-            <span class="icon">{{ location }}</span>
-          </div>
-          <div>
-            <a class="icon" href="{{ url }}">Map to Event</a>
-          </div>
-          <div>
-            <a class="icon" href="{{ url }}">{{ addToCalendar }}</a>
-          </div>
+          <div>{{ location }}</div>
+          <div><a href="{{ url }}">Map to Event</a></div>
+          <div><a href="{{ url }}">{{ addToCalendar }}</a></div>
 
           {{> molecules-social-share }}
 
@@ -38,9 +31,7 @@
 
           {{# singleCategory }}
             <h2 class="heading--auxiliary">Category</h2>
-            <div class="u-clearfix">
-              {{> molecules-tags }}
-            </div>
+            {{> molecules-tags }}
           {{/ singleCategory }}
 
           <h2 class="heading--auxiliary">Tags</h2>

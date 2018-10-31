@@ -4,14 +4,14 @@
   </div>
   <div class="marketing-highlight__body">
     {{# highlightLabel }}
-      <h3 class="marketing-highlight__type category-brand__text--knock-out"><span>{{ highlightLabel }}</span></h3>
+      <h3 class="marketing-highlight__type">{{ highlightLabel }}</h3>
     {{/ highlightLabel }}
-      <h3 class="marketing-highlight__title category-brand__text">{{ headline.short }}</h3>
+    <h3 class="marketing-highlight__title">{{ headline.short }}</h3>
     {{# highlightContent }}
       <p>{{{ excerpt.short }}}</p>
     {{/ highlightContent }}
     {{# ctaText }}
-      <span class="marketing-highlight__cta category-brand__arrow">{{ ctaText }}</span>
+      <span class="marketing-highlight__cta">{{ ctaText }}</span>
     {{/ctaText}}
   </div>
 </a>

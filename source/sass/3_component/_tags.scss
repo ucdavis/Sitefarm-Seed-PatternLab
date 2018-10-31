@@ -1,5 +1,6 @@
 // Tags Styling
 .tags {
+  @include clearfix();
 
   &__title {
     @include heading--auxiliary();

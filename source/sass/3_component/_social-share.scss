@@ -1,4 +1,5 @@
 //static social share
 .social-share {
+  @include clearfix();
   padding: $spacer 0;
 }
