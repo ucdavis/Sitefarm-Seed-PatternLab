@@ -16,7 +16,7 @@
       "brandClass": "category-brand--unitrans-red",
       "img": {
         "landscape16x9": {
-          "src": "http://lorempixel.com/1280/720/nature/1/"
+          "src": "https://loremflickr.com/1280/720/nature?lock=1"
         }
       },
       "headline": {
@@ -31,7 +31,7 @@
       "brandClass": "category-brand--california-poppy",
       "img": {
         "landscape16x9": {
-          "src": "http://lorempixel.com/1280/720/nature/2/"
+          "src": "https://loremflickr.com/1280/720/nature?lock=2"
         }
       },
       "headline": {
@@ -46,7 +46,7 @@
       "brandClass": "category-brand--sky-blue",
       "img": {
         "landscape16x9": {
-          "src": "http://lorempixel.com/1280/720/nature/3/"
+          "src": "https://loremflickr.com/1280/720/nature?lock=3"
         }
       },
       "headline": {
@@ -61,7 +61,7 @@
       "brandClass": "category-brand--winter-sky-gray",
       "img": {
         "landscape16x9": {
-          "src": "http://lorempixel.com/1280/720/nature/4/"
+          "src": "https://loremflickr.com/1280/720/nature?lock=4"
         }
       },
       "headline": {
@@ -76,7 +76,7 @@
       "brandClass": "category-brand--evergreen",
       "img": {
         "landscape16x9": {
-          "src": "http://lorempixel.com/1280/720/nature/5/"
+          "src": "https://loremflickr.com/1280/720/nature?lock=5"
         }
       },
       "headline": {
@@ -91,7 +91,7 @@
       "brandClass": "category-brand--unitrans-red",
       "img": {
         "landscape16x9": {
-          "src": "http://lorempixel.com/1280/720/nature/6/"
+          "src": "https://loremflickr.com/1280/720/nature?lock=6"
         }
       },
       "headline": {
@@ -104,32 +104,25 @@
   ],
   "categoryFilter": [
     {
-      "brandColor": "category-brand--admin-blue",
       "isActiveLink": true,
       "text": "Research"
     },
     {
-      "brandColor": "category-brand--unitrans-red",
       "text": "Nature"
     },
     {
-      "brandColor": "category-brand--wine-grape",
       "text": "On Campus"
     },
     {
-      "brandColor": "category-brand--sunny-grass",
       "text": "Agriculture"
     },
     {
-      "brandColor": "category-brand--sky-blue",
       "text": "Summer"
     },
     {
-      "brandColor": "category-brand--western-redbud",
       "text": "Technology"
     },
     {
-      "brandColor": "category-brand--california-poppy",
       "text": "Photography"
     }
   ]

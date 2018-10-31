@@ -19,7 +19,7 @@
           "teaserPerson": true,
           "img": {
             "thumbnail": {
-              "src": "http://lorempixel.com/200/200/people/1",
+              "src": "https://loremflickr.com/200/200/people?lock=1",
               "alt": "News photo"
             }
           },
@@ -76,7 +76,7 @@
           "teaserPerson": true,
           "img": {
             "thumbnail": {
-              "src": "http://lorempixel.com/200/200/people/3",
+              "src": "https://loremflickr.com/200/200/people?lock=3",
               "alt": "News photo"
             }
           },
@@ -105,7 +105,7 @@
           "teaserPerson": true,
           "img": {
             "thumbnail": {
-              "src": "http://lorempixel.com/200/200/people/9",
+              "src": "https://loremflickr.com/200/200/people?lock=9",
               "alt": "News photo"
             }
           },
@@ -165,7 +165,7 @@
           "teaserPerson": true,
           "img": {
             "thumbnail": {
-              "src": "http://lorempixel.com/200/200/people/1",
+              "src": "https://loremflickr.com/200/200/people?lock=1",
               "alt": "News photo"
             }
           },
@@ -222,7 +222,7 @@
           "teaserPerson": true,
           "img": {
             "thumbnail": {
-              "src": "http://lorempixel.com/200/200/people/3",
+              "src": "https://loremflickr.com/200/200/people?lock=3",
               "alt": "News photo"
             }
           },
@@ -251,7 +251,7 @@
           "teaserPerson": true,
           "img": {
             "thumbnail": {
-              "src": "http://lorempixel.com/200/200/people/9",
+              "src": "https://loremflickr.com/200/200/people?lock=9",
               "alt": "News photo"
             }
           },
@@ -311,7 +311,7 @@
           "teaserPerson": true,
           "img": {
             "thumbnail": {
-              "src": "http://lorempixel.com/200/200/people/1",
+              "src": "https://loremflickr.com/200/200/people?lock=1",
               "alt": "News photo"
             }
           },
@@ -368,7 +368,7 @@
           "teaserPerson": true,
           "img": {
             "thumbnail": {
-              "src": "http://lorempixel.com/200/200/people/3",
+              "src": "https://loremflickr.com/200/200/people?lock=3",
               "alt": "News photo"
             }
           },
@@ -397,7 +397,7 @@
           "teaserPerson": true,
           "img": {
             "thumbnail": {
-              "src": "http://lorempixel.com/200/200/people/9",
+              "src": "https://loremflickr.com/200/200/people?lock=9",
               "alt": "News photo"
             }
           },

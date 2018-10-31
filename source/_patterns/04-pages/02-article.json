@@ -64,7 +64,7 @@
       "alt": "Foal"
     },
     "profileImage": {
-      "src": "http://lorempixel.com/200/200/people/1",
+      "src": "https://loremflickr.com/200/200/people?lock=1",
       "alt": "User image placeholder."
     }
   },
@@ -72,7 +72,7 @@
     {
       "img": {
         "thumbnail": {
-          "src": "http://lorempixel.com/200/200/people/1",
+          "src": "https://loremflickr.com/200/200/people?lock=1",
           "alt": "Janeka Elodia"
         }
       },
@@ -85,7 +85,7 @@
     {
       "img": {
         "thumbnail": {
-          "src": "http://lorempixel.com/200/200/people/9",
+          "src": "https://loremflickr.com/200/200/people?lock=2",
           "alt": "Olivia Lizbeth"
         }
       },

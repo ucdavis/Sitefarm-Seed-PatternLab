@@ -1,0 +1,24 @@
+<h2 class="panel__title">Filter Results</h2>
+<div class="panel__content">
+  <div class="field-container">
+    <label for="firstname">First Name</label>
+    <input type="text" id="firstname">
+  </div>
+  <div class="field-container">
+    <label for="lastname">Last Name</label>
+    <input type="text" id="lastname">
+  </div>
+  <div class="field-container">
+    <label for="position_title">{{ person.title }}</label>
+    <input type="text" id="position_title">
+  </div>
+  <div class="field-container">
+    <label for="unit">{{ person.dept }}</label>
+    <input type="text" id="unit">
+  </div>
+  <div class="field-container">
+    <label for="unit">{{ person.type }}</label>
+    <input type="text" id="unit">
+  </div>
+  <input type="submit" class="btn--primary u-align--right" value="Apply Filter">
+</div>

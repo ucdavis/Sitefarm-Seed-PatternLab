@@ -175,7 +175,7 @@
     {
       "img": {
         "thumbnail": {
-          "src": "http://lorempixel.com/520/580/people/7/",
+          "src": "https://loremflickr.com/520/580/people?lock=1",
           "alt": "Dr. Nafario"
         }
       },
@@ -188,7 +188,7 @@
     {
       "img": {
         "thumbnail": {
-          "src": "http://lorempixel.com/520/580/people/10/",
+          "src": "https://loremflickr.com/520/580/people?lock=2",
           "alt": "Mr. Jake Edly"
         }
       },

@@ -2,20 +2,19 @@
   {{> organisms-header }}
   <main class="l-main">
 
-    {{> organisms-page-title }}
-
     {{# emergency }}
       {{> molecules-alert-error }}
     {{/ emergency }}
 
     <div class="l-container">
+      {{> organisms-page-title }}
       {{> molecules-breadcrumbs }}
     </div>
 
     <div class="l-container l-basic">
 
       <div class="l-content">
-        <div class="panel o-box--large">
+        <div class="panel o-box">
           <h2 class="heading--underline">{{ headline.short }}</h2>
           <div class="u-align--right u-width--half">
             {{> molecules-figure-with-caption }}

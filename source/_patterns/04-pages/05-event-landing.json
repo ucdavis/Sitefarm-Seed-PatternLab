@@ -15,7 +15,7 @@
     {
       "img": {
         "thumbnail": {
-          "src": "http://lorempixel.com/200/200/city/1/",
+          "src": "https://loremflickr.com/200/200/city?lock=1",
           "alt": "News photo"
         }
       },
@@ -55,7 +55,7 @@
     {
       "img": {
         "thumbnail": {
-          "src": "http://lorempixel.com/200/200/city/2/",
+          "src": "https://loremflickr.com/200/200/city?lock=2",
           "alt": "News photo"
         }
       },
@@ -95,7 +95,7 @@
     {
       "img": {
         "thumbnail": {
-          "src": "http://lorempixel.com/200/200/city/3/",
+          "src": "https://loremflickr.com/200/200/city?lock=3",
           "alt": "News photo"
         }
       },

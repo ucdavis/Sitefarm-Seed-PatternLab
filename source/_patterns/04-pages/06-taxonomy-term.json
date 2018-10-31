@@ -15,7 +15,7 @@
     {
       "img": {
         "thumbnail": {
-          "src": "http://lorempixel.com/200/200/nature/1",
+          "src": "https://loremflickr.com/200/200/nature?lock=1",
           "alt": "Photo"
         }
       },
@@ -58,7 +58,7 @@
     {
       "img": {
         "thumbnail": {
-          "src": "http://lorempixel.com/200/200/nature/2",
+          "src": "https://loremflickr.com/200/200/nature?lock=2",
           "alt": "News photo"
         }
       },
@@ -101,7 +101,7 @@
     {
       "img": {
         "thumbnail": {
-          "src": "http://lorempixel.com/200/200/nature/3",
+          "src": "https://loremflickr.com/200/200/nature?lock=3",
           "alt": "News photo"
         }
       },
@@ -144,7 +144,7 @@
     {
       "img": {
         "thumbnail": {
-          "src": "http://lorempixel.com/200/200/technics/1",
+          "src": "https://loremflickr.com/200/200/technics?lock=1",
           "alt": "News photo"
         }
       },
@@ -187,7 +187,7 @@
     {
       "img": {
         "thumbnail": {
-          "src": "http://lorempixel.com/200/200/people/1",
+          "src": "https://loremflickr.com/200/200/people?lock=1",
           "alt": "News photo"
         }
       },
@@ -230,7 +230,7 @@
     {
       "img": {
         "thumbnail": {
-          "src": "http://lorempixel.com/200/200/city/1",
+          "src": "https://loremflickr.com/200/200/city?lock=1",
           "alt": "News photo"
         }
       },
