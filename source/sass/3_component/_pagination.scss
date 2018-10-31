@@ -1,40 +1,20 @@
 // Pagination
 // Make the active/current styles extensible for compatibility
 %pager--current {
-  background: $brand--primary-80;
-  color: $white;
-
-  &:hover {
-    background: $brand--primary-90;
-  }
+  color: $link-color--secondary;
 }
 
 .pager {
   @include reset-list();
   @include clearfix();
-  width: inherit;
-  list-style: none;
-  margin: $spacer 0;
-  padding: 0;
 
   &__item {
     float: left;
-    margin: $spacer--tiny $spacer--small $spacer--tiny 0;
 
     // Theme links and static text the same
     a,
     &--static {
-      @include link-style-secondary();
-      display: block;
-      padding: $spacer--small $spacer;
-      background: $brand--primary-20;
-      transition: all .2s ease-in-out;
-      text-decoration: none;
-    }
-
-    a:hover {
-      background: $brand--primary-80;
-      color: $white;
+      padding: $spacer;
     }
 
     // Allow the current item to have a link or just static text
@@ -44,6 +24,7 @@
     }
   }
 
+  // Mini Pager modifier
   &--mini {
 
     .pager__item--current {

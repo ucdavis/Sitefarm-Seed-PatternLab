@@ -11,20 +11,6 @@ $social-follow-icon-width: 43px;
     float: left;
     margin-right: $spacer;
     margin-bottom: $spacer * .75;
-
-    &:last-child {
-      margin-right: 0;
-    }
-
-    @include breakpoint(max-width 303px) {
-      &:last-child {
-        margin-right: 0;
-      }
-    }
-
-    @include breakpoint($bp-medium--up) {
-      margin-right: $spacer * 1.4;
-    }
   }
 
   a {
@@ -39,10 +25,6 @@ $social-follow-icon-width: 43px;
 
     &:hover {
       opacity: .6;
-    }
-
-    .no-svg & {
-      background-image: url("../images/social-follow.png");
     }
   }
 

@@ -5,7 +5,6 @@
   &__wrapper {
     @extend %o-media;
     padding: $spacer--small;
-    transition: background-color .2s ease-in-out;
 
     @include breakpoint($bp-small--up) {
       margin: 0;

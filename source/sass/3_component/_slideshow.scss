@@ -90,20 +90,11 @@ $slideshow-thumbnails-button-width: 30px;
   }
 
   &__caption {
-    @include font-size(12px, 1.3);
     clear: both;
     padding: $spacer--small;
     background: rgba(255, 255, 255, .85);
     color: $black;
-
-    .lt-ie9 & {
-      background-color: $white;
-    }
-
-    @include breakpoint($bp-narrow--up) {
-      @include font-size(14px, 1.3);
-      padding: $spacer;
-    }
+    font-size: .875rem;
   }
 
 
