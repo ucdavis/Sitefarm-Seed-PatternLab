@@ -103,6 +103,10 @@ To comment out all but the most basic styles, do the following:
 //@import "6_skin/**/*";
 ```
 
+## But I don't know how to use Sass/Scss!!!
+
+Don't forget that you can just write normal CSS in a `.scss` file. So don't feel like you have to use all the extra Sass syntax/mixins/variables/etc.
+
 # CSS formatting guidelines
 We use the [Drual CSS guidlines](https://www.drupal.org/node/1887862) and [Drupal CSS Architecture](https://www.drupal.org/coding-standards/css/architecture)
 
