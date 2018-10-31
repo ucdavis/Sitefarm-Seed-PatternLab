@@ -3,22 +3,22 @@
   font-size: 1rem;
   margin-bottom: $spacer;
   padding: $spacer--large;
-  //background-color: lighten($rec-pool-blue, 60%);
-  //color: $rec-pool-blue;
+  background-color: lighten($brand--info, 40%);
+  color: $brand--info;
   font-style: italic;
 
   &--success {
-    background-color: lighten($brand--success, 40%);
+    background-color: lighten($brand--success, 50%);
     color: $brand--success;
   }
 
   &--warning {
-    background-color: lighten($brand--warning, 45%);
+    background-color: lighten($brand--warning, 50%);
     color: $brand--warning;
   }
 
   &--error {
-    background-color: lighten($brand--danger, 50%);
+    background-color: lighten($brand--danger, 55%);
     color: $brand--danger;
   }
 }
