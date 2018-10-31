@@ -13,22 +13,22 @@
     <div class="l-container l-basic">
 
       <div class="l-content">
-        {{# marketingHighlightFeatured.shortBurst }}
+        {{# marketingHighlight }}
           <div class="panel">
             {{> molecules-marketing-highlight }}
           </div>
-        {{/ marketingHighlightFeatured.shortBurst }}
+        {{/ marketingHighlight }}
         <div class="panel">
           {{> atoms-video-youtube }}
         </div>
         <div class="panel">
           {{> molecules-slideshow }}
         </div>
-        <div class="panel">
+        <div class="panel panel--transparent">
           <h2 class="panel__title">Follow Us</h2>
           {{> molecules-social-follow }}
         </div>
-      </div><!--end .l-content-->
+      </div>
 
       <div class="l-sidebar">
         <div class="panel o-box">
@@ -44,9 +44,9 @@
             {{> molecules-focal-link }}
           </div>
         {{/ focalLinks }}
-      </div><!--end .l-sidebar-first-->
+      </div>
 
     </div>
-  </main><!--End role=main-->
+  </main>
   {{> organisms-footer }}
 </div>

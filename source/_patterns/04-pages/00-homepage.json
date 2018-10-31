@@ -1,67 +1,36 @@
 {
   "title": "Home Page",
-  "bodyClass": "front",
   "heroBanner": {
     "btnVideo": true,
     "img": {
       "hero": {
-        "src": "../../images/sample/homepage/horse-hero.jpg",
-        "alt": "It’s Right HERE"
+        "src": "https://loremflickr.com/2000/770/nature?lock=1",
+        "alt": "Header image from off site"
       }
     },
-    "title": "IT'S RIGHT HERE AND NOW",
+    "title": "SiteFarm Seed Pattern Lab",
     "excerpt": {
-      "short": "This site is a Pattern Library of all the components and styles for a UC Davis website with approved branding."
+      "short": "This is for helping you kick off your own Pattern Lab."
     },
     "btnText": "Get the Code",
-    "url": "https://bitbucket.org/ietwebdev/sitefarm-pattern-lab-one"
+    "url": "https://github.com/ucdavis/sitefarm-seed-patternlab"
   },
-  "priorityLinks": [
-    {
-      "icon": "fas fa-atlas",
-      "actionText": "Majors"
-    },
-    {
-      "icon": "fas fa-graduation-cap",
-      "actionText": "Academics"
-    },
-    {
-      "icon": "fas fa-dollar-sign",
-      "actionText": "Cost"
-    },
-    {
-      "icon": "fas fa-calendar-alt",
-      "actionText": "Calendar"
-    },
-    {
-      "icon": "fas fa-walking",
-      "actionText": "Visit"
-    },
-    {
-      "icon": "fas fa-check",
-      "actionText": "apply"
-    }
-  ],
   "focalLinks": [
     {
       "actionText": "Take Our Virtual Tour",
-      "icon": "fas fa-expand-arrows-alt",
-      "brandClass": "category-brand--western-redbud"
+      "icon": "fas fa-expand-arrows-alt"
     },
     {
       "actionText": "Sign Up for Our Prospective Student Mailing List",
-      "icon": "far fa-envelope",
-      "brandClass": "category-brand--california-poppy"
+      "icon": "far fa-envelope"
     },
     {
       "actionText": "Join Our Alumni Association",
-      "icon": "far fa-handshake",
-      "brandClass": "category-brand--golden-lupine"
+      "icon": "far fa-handshake"
     },
     {
-      "actionText": "Make a Gift to UC Davis",
-      "icon": "fas fa-gift",
-      "brandClass": "category-brand--sunny-grass"
+      "actionText": "Make a Gift",
+      "icon": "fas fa-gift"
     }
   ],
   "eventList": [
@@ -126,11 +95,11 @@
       "img": {
         "thumbnail": {
           "src": "../../images/sample/homepage/water-conservation.jpg",
-          "alt": "UC Davis employees make the connection between the recycled water pipeline and a cooling tower"
+          "alt": "Employees make the connection between the recycled water pipeline and a cooling tower"
         }
       },
       "headline": {
-        "medium": "‘Cool’ Conservation: UC Davis Saves 61 Million Gallons of Water a Year"
+        "medium": "‘Cool’ Conservation: Save 61 Million Gallons of Water a Year"
       },
       "year": {
         "long": "2015",
@@ -151,11 +120,11 @@
       "img": {
         "thumbnail": {
           "src": "../../images/sample/homepage/beer.jpg",
-          "alt": "Beer and equipment in UC Davis brewing science program"
+          "alt": "Beer and equipment in brewing science program"
         }
       },
       "headline": {
-        "medium": "Craft-brewing Leader Gives $1 Million to Enhance UC Davis Brewing Facility"
+        "medium": "Craft-brewing Leader Gives $1 Million to Enhance Brewing Facility"
       },
       "year": {
         "long": "2015",
@@ -180,7 +149,7 @@
         }
       },
       "headline": {
-        "medium": "Siblings Overcome Major Challenges to Earn UC Davis Degrees"
+        "medium": "Siblings Overcome Major Challenges to Earn Degrees"
       },
       "year": {
         "long": "2015",
@@ -198,56 +167,39 @@
       }
     }
   ],
-  "spotlight": {
-    "url": "",
-    "callout": "13",
-    "headline": {
-      "short": "UC Davis Breakthroughs that Changed the World"
-    },
-    "img": {
-      "landscape4x3": {
-        "src": "../../images/sample/homepage/research.jpg",
-        "alt": "Wow"
-      }
-    }
-  },
-  "marketingHighlightFeatured": {
-    "shortBurst": [
-      {
-        "brandClass": "category-brand--california-poppy",
-        "img": {
-          "landscape4x3": {
-            "src": "../../images/sample/homepage/climbing-wall.jpg",
-            "alt": "Esther Ebuehi poses for a photo at the rock wall inside of the Activities and Recreation Center on the UC Davis campus."
-          }
-        },
-        "headline": {
-          "short": "The climbing wall"
-        },
-        "highlightLabel": "Hot Spot",
-        "ctaText": "More about campus",
-        "highlight-content": {
-          "excerpt": {
-            "short": "At this popular hangout, practice rock climbing in preparation for an outdoor adventure in the Sierra"
-          }
+  "marketingHighlight": [
+    {
+      "img": {
+        "landscape4x3": {
+          "src": "../../images/sample/homepage/climbing-wall.jpg",
+          "alt": "Esther Ebuehi poses for a photo at the rock wall inside of the Activities and Recreation Center on the UC Davis campus."
         }
       },
-      {
-        "brandClass": "category-brand--western-redbud",
-        "img": {
-          "landscape4x3": {
-            "src": "../../images/sample/homepage/picnicday-parade.jpg",
-            "alt": ""
-          }
-        },
-        "headline": {
-          "short": "We’ve got more than 500 student clubs"
-        },
-        "highlightLabel": "Fast Fact",
-        "ctaText": "More UC Davis facts"
+      "headline": {
+        "short": "The climbing wall"
+      },
+      "highlightLabel": "Hot Spot",
+      "ctaText": "More about campus",
+      "highlightContent": {
+        "excerpt": {
+          "short": "At this popular hangout, practice rock climbing in preparation for an outdoor adventure in the Sierra"
+        }
       }
-    ]
-  },
+    },
+    {
+      "img": {
+        "landscape4x3": {
+          "src": "../../images/sample/homepage/picnicday-parade.jpg",
+          "alt": ""
+        }
+      },
+      "headline": {
+        "short": "We’ve got more than 500 student clubs"
+      },
+      "highlightLabel": "Fast Fact",
+      "ctaText": "More UC Davis facts"
+    }
+  ],
   "slideshow": [
     {
       "slides": [
@@ -259,11 +211,8 @@
               "alt": "Tercero Residence Halls"
             }
           },
-          "slideTitle": {
-            "firstWord": "Picture",
-            "remaining": "UC Davis"
-          },
-          "caption": false
+          "slideTitle": "Campus Life",
+          "caption": "Check out our new student housing"
         },
         {
           "img": {
@@ -317,78 +266,6 @@
               "src": "../../images/sample/slideshows/homepage/coffee-house.jpg",
               "lazy": "../../images/sample/slideshows/homepage/coffee-house.jpg",
               "alt": "The Coffeehouse"
-            }
-          }
-        },
-        {
-          "img": {
-            "slideshow": {
-              "src": "../../images/sample/slideshows/homepage/community-center.jpg",
-              "lazy": "../../images/sample/slideshows/homepage/community-center.jpg",
-              "alt": "The Student Community Center"
-            }
-          }
-        },
-        {
-          "img": {
-            "slideshow": {
-              "src": "../../images/sample/slideshows/homepage/dining-hall.jpg",
-              "lazy": "../../images/sample/slideshows/homepage/dining-hall.jpg",
-              "alt": "A Dining Commons"
-            }
-          }
-        },
-        {
-          "img": {
-            "slideshow": {
-              "src": "../../images/sample/slideshows/homepage/farmers-market.jpg",
-              "lazy": "../../images/sample/slideshows/homepage/farmers-market.jpg",
-              "alt": "The Davis Farmers Market"
-            }
-          }
-        },
-        {
-          "img": {
-            "slideshow": {
-              "src": "../../images/sample/slideshows/homepage/pavilion.jpg",
-              "lazy": "../../images/sample/slideshows/homepage/pavilion.jpg",
-              "alt": "The Pavilion"
-            }
-          }
-        },
-        {
-          "img": {
-            "slideshow": {
-              "src": "../../images/sample/slideshows/homepage/pj-rino2.jpg",
-              "lazy": "../../images/sample/slideshows/homepage/pj-rino2.jpg",
-              "alt": "Pajamarino"
-            }
-          }
-        },
-        {
-          "img": {
-            "slideshow": {
-              "src": "../../images/sample/slideshows/homepage/quad.jpg",
-              "lazy": "../../images/sample/slideshows/homepage/quad.jpg",
-              "alt": "The Quad"
-            }
-          }
-        },
-        {
-          "img": {
-            "slideshow": {
-              "src": "../../images/sample/slideshows/homepage/stadium.jpg",
-              "lazy": "../../images/sample/slideshows/homepage/stadium.jpg",
-              "alt": "The Football Stadium"
-            }
-          }
-        },
-        {
-          "img": {
-            "slideshow": {
-              "src": "../../images/sample/slideshows/homepage/wv-pool.jpg",
-              "lazy": "../../images/sample/slideshows/homepage/wv-pool.jpg",
-              "alt": "The West Village Pool"
             }
           }
         }

@@ -6,9 +6,7 @@ css:
     - source/sass/**/*.scss
   vendor:
     - source/css/vendor/**/*.css
-    - '!node_modules/superfish/dist/css/megafish.css'
-    - '!node_modules/superfish/dist/css/superfish-navbar.css'
-    - '!node_modules/superfish/dist/css/superfish-vertical.css'
+    - '!node_modules/slick-carousel/slick/slick-theme.css'
   dest: public/css/
   lint:
     extraSrc:

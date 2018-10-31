@@ -2,7 +2,6 @@
   "siteName": "SiteFarm Seed",
   "slogan": "Websites Grown Here",
   "title": "Page Title",
-  "htmlClass": "pl",
   "bodyClass": "body",
   "siteLogo": "../../images/site-logo.svg",
   "colors": {
@@ -223,7 +222,7 @@
   },
   "breadcrumbs": [
     {
-      "url": "../03-templates-00-homepage/03-templates-00-homepage.html",
+      "url": "../04-pages-00-homepage/04-pages-00-homepage.rendered.html",
       "linkTitle": "Home"
     },
     {
@@ -231,10 +230,9 @@
       "linkTitle": "Current Page"
     }
   ],
-  "brandClass": "category-brand--admin-blue",
   "emergency": false,
   "actionText": "This is a Call to Action link",
-  "videoId": "nZZDAzErkIU",
+  "videoId": "fzvjFiERHTk",
   "videoWidth": "853",
   "videoHeight": "480",
   "wysiwygFeatureBlock": {
@@ -245,10 +243,7 @@
     {
       "slides": [
         {
-          "slideTitle": {
-            "firstWord": "slide",
-            "remaining": "title"
-          },
+          "slideTitle": "slide title",
           "caption": "Look at me I'm a caption."
         },
         {
@@ -378,79 +373,22 @@
     {},
     {}
   ],
-  "searchResultsList": [
-    {},
-    {},
-    {},
-    {},
-    {}
+  "highlightLabel": "Lorem Ipsum",
+  "ctaText": "Lorem Ipsum Dolar",
+  "highlightContent": true,
+  "marketingHighlight": [
+    {
+      "highlightLabel": "Lorem Ipsum",
+      "ctaText": "Lorem Ipsum Dolar"
+    },
+    {
+      "highlightLabel": "Lorem Ipsum",
+      "ctaText": "Lorem Ipsum Dolar",
+      "excerpt": {
+        "short": ""
+      }
+    }
   ],
-  "marketingHighlight": {
-    "shortBurst": [
-      {
-        "brandClass": "category-brand--california-poppy"
-      },
-      {
-        "brandClass": "category-brand--western-redbud"
-      },
-      {
-        "brandClass": "category-brand--wine-grape"
-      }
-    ],
-    "longBurst": [
-      {
-        "brandClass": "category-brand--wine-grape"
-      },
-      {
-        "brandClass": "category-brand--california-poppy"
-      },
-      {
-        "brandClass": "category-brand--western-redbud"
-      },
-      {
-        "brandClass": "category-brand--sunny-grass"
-      },
-      {
-        "brandClass": "category-brand--sky-blue"
-      },
-      {
-        "brandClass": "category-brand--wine-grape"
-      },
-      {
-        "brandClass": "category-brand--wine-grape"
-      },
-      {
-        "brandClass": "category-brand--sunny-grass"
-      },
-      {
-        "brandClass": "category-brand--california-poppy"
-      },
-      {
-        "brandClass": "category-brand--western-redbud"
-      }
-    ]
-  },
-  "marketingHighlightFeatured": {
-    "shortBurst": [
-      {
-        "brandClass": "category-brand--california-poppy",
-        "highlightLabel": "Lorem Ipsum",
-        "ctaText": "Lorem Ipsum Dolar"
-      },
-      {
-        "brandClass": "category-brand--western-redbud",
-        "highlightLabel": "Lorem Ipsum",
-        "ctaText": "Lorem Ipsum Dolar",
-        "excerpt": {
-          "short": ""
-        }
-      }
-    ]
-  },
-  "spotlight": {
-    "url": "",
-    "callout": "5"
-  },
   "tagList": [
     {
       "linkTitle": "tag 1"
@@ -463,15 +401,6 @@
     },
     {
       "linkTitle": "tag 4"
-    },
-    {
-      "linkTitle": "tag 5"
-    },
-    {
-      "linkTitle": "tag 6"
-    },
-    {
-      "linkTitle": "tag 7"
     }
   ],
   "latestNews": [
@@ -514,10 +443,6 @@
       "featured": true
     }
   ],
-  "category": {
-    "primary": "Snozzberries",
-    "secondary": "Gobstopper"
-  },
   "articleList": [
     {},
     {},
@@ -569,35 +494,27 @@
     }
   ],
   "peopleGroupTitle": "Group Title",
-  "searchResultNum": "5",
   "categoryFilter": [
     {
-      "brandColor": "category-brand--admin-blue",
       "isActiveLink": true,
       "text": "Lorem Ipsum"
     },
     {
-      "brandColor": "category-brand--unitrans-red",
       "text": "Lorem Ipsum"
     },
     {
-      "brandColor": "category-brand--wine-grape",
       "text": "Lorem Ipsum"
     },
     {
-      "brandColor": "category-brand--sunny-grass",
       "text": "Lorem Ipsum"
     },
     {
-      "brandColor": "category-brand--sky-blue",
       "text": "Lorem Ipsum"
     },
     {
-      "brandColor": "category-brand--western-redbud",
       "text": "Lorem Ipsum"
     },
     {
-      "brandColor": "category-brand--california-poppy",
       "text": "Lorem Ipsum"
     }
   ],
@@ -632,12 +549,7 @@
   },
   "focusBoxTitle": "Focus Box Title",
   "focusBoxText": "Lorem ipsum dolar sit amet.",
-  "hasFigure": true,
   "hasMediaFigure": true,
-  "presenter": {
-    "prefix": "Presented by",
-    "name": "UC Davis"
-  },
   "addToCalendar": "Add to your calendar",
   "phoneNum": "530-752-5555",
   "emailAdd": "Joe@test.edu",
@@ -650,36 +562,12 @@
     "state": "CA",
     "zip": "95666"
   },
-  "filterList": [
-    {
-      "filter": "filter",
-      "filterNum": "(2)"
-    },
-    {
-      "filter": "filter",
-      "filterNum": "(2)"
-    },
-    {
-      "filter": "filter",
-      "filterNum": "(2)"
-    },
-    {
-      "filter": "filter",
-      "filterNum": "(2)"
-    },
-    {
-      "filter": "filter",
-      "filterNum": "(2)"
-    }
-  ],
   "catList": [
     {
-      "categoryValue": "Sample Category One",
-      "brandColor": "sky-blue"
+      "categoryValue": "Sample Category One"
     },
     {
-      "categoryValue": "Sample Category Two",
-      "brandColor": "sunny-grass"
+      "categoryValue": "Sample Category Two"
     }
   ],
   "listDownloads": [
@@ -721,11 +609,6 @@
       ]
     }
   ],
-  "personReference": [
-    {},
-    {},
-    {}
-  ],
   "personLink": "View Listing",
   "photoGalleries": [
     {},
@@ -735,23 +618,5 @@
     {},
     {}
   ],
-  "teaserSummary": true,
-  "priorityLinks": [
-    {},
-    {},
-    {},
-    {}
-  ],
-  "dropdownTitle": "Drop Down",
-  "dropdownItems": [
-    {
-      "dropdownItem": "Item 1"
-    },
-    {
-      "dropdownItem": "Item 2"
-    },
-    {
-      "dropdownItem": "Item 3"
-    }
-  ]
+  "teaserSummary": true
 }

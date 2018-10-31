@@ -5,12 +5,10 @@
         {{> atoms-slideshow }}
         <div class="slideshow__text">
           {{# slideTitle }}
-            <div class="slideshow__title">
-              <span class="slideshow__knockout">{{ firstWord }}</span> {{ remaining }}
-            </div>
+            <div class="slideshow__title">{{ slideTitle }}</div>
           {{/ slideTitle }}
           {{# caption }}
-            <div class="slideshow__caption">{{{ caption }}}</div>
+            <div class="slideshow__caption">{{ caption }}</div>
           {{/ caption }}
         </div>
       </div>

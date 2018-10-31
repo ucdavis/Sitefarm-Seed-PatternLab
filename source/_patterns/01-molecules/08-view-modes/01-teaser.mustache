@@ -1,4 +1,4 @@
-<article class="o-media vm-teaser {{# featured }}vm-teaser--featured{{/ featured }} {{ brandClass }} {{ styleModifier }}">
+<article class="o-media vm-teaser {{# featured }}vm-teaser--featured{{/ featured }} {{ styleModifier }}">
   {{# hasMediaFigure }}
     <div class="o-media__figure vm-teaser__figure category category-brand__thumbnail">
       <a href="{{ url }}">{{> atoms-thumbnail }}</a>
@@ -26,7 +26,7 @@
     {{# teaserCategorized }}
       <ul class="vm-teaser__categories">
         {{# catList }}
-          <li class="{{ brandColor }}"><a href="{{ url }}">{{ categoryValue }}</a></li>
+          <li><a href="{{ url }}">{{ categoryValue }}</a></li>
         {{/catList}}
       </ul>
     {{/ teaserCategorized }}

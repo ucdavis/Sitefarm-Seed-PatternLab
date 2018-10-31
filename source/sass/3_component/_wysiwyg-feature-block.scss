@@ -6,6 +6,10 @@
     padding: $spacer $fixed-spacer;
     color: $white;
     text-align: left;
+
+    a {
+      color: $white;
+    }
   }
 
   &__title {

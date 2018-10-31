@@ -1,4 +1,4 @@
-<a href="{{ url }}" class="marketing-highlight {{ brandClass }} {{ styleModifier }}">
+<a href="{{ url }}" class="marketing-highlight {{ styleModifier }}">
   <div class="marketing-highlight__image">
     {{> atoms-landscape-4x3 }}
   </div>
@@ -7,9 +7,9 @@
       <h3 class="marketing-highlight__type category-brand__text--knock-out"><span>{{ highlightLabel }}</span></h3>
     {{/ highlightLabel }}
       <h3 class="marketing-highlight__title category-brand__text">{{ headline.short }}</h3>
-    {{# highlight-content }}
+    {{# highlightContent }}
       <p>{{{ excerpt.short }}}</p>
-    {{/ highlight-content }}
+    {{/ highlightContent }}
     {{# ctaText }}
       <span class="marketing-highlight__cta category-brand__arrow">{{ ctaText }}</span>
     {{/ctaText}}

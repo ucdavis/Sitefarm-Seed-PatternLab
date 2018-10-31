@@ -1,11 +1,9 @@
-<a href="{{ url }}" class="vm-poster {{ brandClass }}">
-  {{> atoms-landscape-16x9 }}
-  <div class="vm-poster__body category-brand__background-opacity">
-    <!--<img class="vm-poster__icon" src="../../images/read-arrow.svg" alt="View Gallery">-->
-    <div class="vm-poster__icon"></div>
-    <div class="vm-poster__body-text">
-      <h2 class="vm-poster__title">{{ headline.short }}</h2>
-      <p>{{ excerpt.short }}</p>
-    </div>
+<a href="{{ url }}" class="vm-poster">
+  <div class="vm-poster__image">
+    {{> atoms-landscape-16x9 }}
+  </div>
+  <div class="vm-poster__body">
+    <h2 class="vm-poster__title">{{ headline.short }}</h2>
+    <p>{{ excerpt.short }}</p>
   </div>
 </a>

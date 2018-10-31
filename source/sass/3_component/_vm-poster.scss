@@ -1,10 +1,13 @@
 .vm-poster {
 
-  &__body {
-    background-color: rgba($brand--primary-80, .8);
+  &__image {
+    img {
+      width: 100%;
+    }
   }
 
-  &__body-text {
+  &__body {
+    background-color: rgba($brand--primary-80, .8);
     padding: $spacer;
     color: $white;
   }
