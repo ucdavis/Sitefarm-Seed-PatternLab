@@ -1,5 +1,7 @@
 # SASS Folder Structure
 
+> The supplied Sass structure is entirely optional. You can use it as a starter or wipe out the folder completely and start from scratch with just a `sass/style.scss` file.
+
 ```
 |-- sass
 |   |-- 0_utility
@@ -85,6 +87,21 @@ This folder is used for sitewide changes via a class on the `<body>` tag. This i
 
 Don't put any styles directly into **style.scss**!
 
+# Tips and Tricks
+
+The `style.scss` file is your master control. It uses Glob patterns to import partials within the directory structure. This means that you can comment out entire sections easily.
+
+To comment out all but the most basic styles, do the following:
+
+```scss
+// Partials
+@import "1_base_html/**/*";
+@import "2_base_class/**/*";
+//@import "3_component/**/*";
+//@import "4_region/**/*";
+//@import "5_layout/**/*";
+//@import "6_skin/**/*";
+```
 
 # CSS formatting guidelines
 We use the [Drual CSS guidlines](https://www.drupal.org/node/1887862) and [Drupal CSS Architecture](https://www.drupal.org/coding-standards/css/architecture)
