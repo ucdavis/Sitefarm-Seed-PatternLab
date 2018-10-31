@@ -1,6 +1,4 @@
 .breadcrumbs {
-  margin-bottom: $spacer * 1.75;
-  padding-left: 0;
   color: $brand--primary-60;
 
   li {
@@ -9,7 +7,7 @@
 
     &:not(:last-child):after {
       padding: 0 $spacer--tiny;
-      content: " >";
+      content: " /";
       color: $brand--primary;
     }
 

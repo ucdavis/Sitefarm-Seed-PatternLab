@@ -60,14 +60,14 @@ $o-box-enable--huge:    false !default;
 
 /// Box Object: Large box
 %o-box--large {
-  @include breakpoint($bp-medium--up, true) {
+  @include breakpoint($bp-medium--up) {
     padding: $o-box-spacer--large;
   }
 }
 
 /// Box Object: Huge box
 %o-box--huge {
-  @include breakpoint($bp-medium--up, true) {
+  @include breakpoint($bp-medium--up) {
     padding: $o-box-spacer--huge;
   }
 }

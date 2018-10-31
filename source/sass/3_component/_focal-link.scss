@@ -3,11 +3,9 @@ $focal-link-size: 63px;
 
 .focal-link {
   @extend %o-media;
-  @include link-style-secondary();
   align-items: center;
   padding: $spacer;
   text-decoration: none;
-  transition: background-color .2s ease-in-out;
 
   &:hover {
     background-color: $brand--secondary-10;
@@ -25,11 +23,6 @@ $focal-link-size: 63px;
   &__body {
     @extend %o-media__body;
     @include font-size(17px);
-  }
-
-  // Reverse the image to the right side
-  &--rev {
-    @extend %o-media--rev;
   }
 
   // Font Awesome icons for when not using an <img> tag. Add this to the &__figure div

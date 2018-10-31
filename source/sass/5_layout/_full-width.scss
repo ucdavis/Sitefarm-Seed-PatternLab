@@ -2,7 +2,7 @@
 .l-full-width {
   @include nested-context($container-width, center);
 
-  @include breakpoint($bp-medium--up, true) {
+  @include breakpoint($bp-medium--up) {
     @include nested-context($container-width--md, center);
   }
   @include breakpoint($bp-wide--up) {

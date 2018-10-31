@@ -23,10 +23,6 @@ $gallery-spacing: $spacer--small;
     @include breakpoint($bp-wide--up) {
       width: 25%;
     }
-
-    .no-flexbox & {
-      float: left;
-    }
   }
 
   &__title {
@@ -63,25 +59,6 @@ $gallery-spacing: $spacer--small;
 
   a {
     display: block;
-
-    // Icon to indicate the image can get bigger in a lightbox window
-    &:after {
-      position: absolute;
-      display: block;
-      right: $spacer;
-      bottom: $spacer--small;
-      height: 32px;
-      width: 32px;
-      background: url(../images/expand.svg);
-      content: "";
-      opacity: 0.6;
-      transition: all 0.3s ease-in-out;
-    }
-
-    &:hover:after {
-      opacity: 1;
-      transform: scale(1.2);
-    }
   }
 
 }

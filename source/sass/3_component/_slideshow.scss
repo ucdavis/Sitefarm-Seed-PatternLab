@@ -76,7 +76,7 @@ $slideshow-thumbnails-button-width: 30px;
       @include font-size(30px);
     }
 
-    @include breakpoint($bp-medium--up, true) {
+    @include breakpoint($bp-medium--up) {
       @include font-size(40px);
     }
   }
@@ -100,7 +100,7 @@ $slideshow-thumbnails-button-width: 30px;
       background-color: $white;
     }
 
-    @include breakpoint($bp-narrow--up, true) {
+    @include breakpoint($bp-narrow--up) {
       @include font-size(14px, 1.3);
       padding: $spacer;
     }
@@ -116,7 +116,7 @@ $slideshow-thumbnails-button-width: 30px;
     background-image: url("../images/slideshow-buttons.svg");
     background-position: 0 center;
 
-    @include breakpoint($bp-small--up, true) {
+    @include breakpoint($bp-small--up) {
       height: $slideshow-button-width * 3;
     }
 

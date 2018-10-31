@@ -1,6 +1,6 @@
 // Align Right
 @mixin u-align--right() {
-  @include breakpoint($bp-small--up, true) {
+  @include breakpoint($bp-small--up) {
     float: right !important;
     margin-bottom: $spacer;
     margin-left: $spacer;
@@ -14,7 +14,7 @@
 
 // Align Left
 @mixin u-align--left() {
-  @include breakpoint($bp-small--up, true) {
+  @include breakpoint($bp-small--up) {
     float: left !important;
     margin-bottom: $spacer;
     margin-right: $spacer;

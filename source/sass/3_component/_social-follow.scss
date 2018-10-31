@@ -22,7 +22,7 @@ $social-follow-icon-width: 43px;
       }
     }
 
-    @include breakpoint($bp-medium--up, true) {
+    @include breakpoint($bp-medium--up) {
       margin-right: $spacer * 1.4;
     }
   }
