@@ -83,7 +83,7 @@ This folder is used for sitewide changes via a class on the `<body>` tag. This i
 
 **style.scss**: This is the main file which will be rendered into **style.css**. It contains all of the SASS libraries and partials necessary to build CSS. 
 
-Don't put any styles directly into **no-query.scss** or **style.scss**!
+Don't put any styles directly into **style.scss**!
 
 
 # CSS formatting guidelines
@@ -189,7 +189,7 @@ Sass Info
 
 Sass Libraries, Helpers, and Shortcut tools
 
-* [Singularity](https://github.com/at-import/Singularity/wiki) - This is a very flexible grid system.
+* [Singularity](https://github.com/at-import/Singularity/wiki) - This is a very flexible grid system if you are not able to use CSS Grids yet.
 * [Breakpoint](http://breakpoint-sass.com/) & [Breakpoint Wiki](https://github.com/at-import/breakpoint/wiki) - Use Breakpoint for media queries in responsive design.
 * [Toolkit](https://github.com/at-import/toolkit) - This is a library of cool mixins and helpers.
 
