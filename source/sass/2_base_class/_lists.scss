@@ -34,64 +34,6 @@
   }
 }
 
-/// List: Simple `Modifier`
-///
-/// Removes bullets and initial left margin
-%list--simple {
-  @include reset-list();
-
-  li {
-    margin-bottom: $spacer;
-
-    ul {
-      margin-top: $spacer;
-    }
-  }
-
-  a {
-    font-weight: $font-weight;
-  }
-}
-
-// Download List
-.list--download {
-  @include reset-list();
-}
-
-// Multi-level Ordered List
-%list--multilevel {
-  list-style-type: decimal;
-
-  ol {
-    list-style-type: lower-alpha;
-
-    ol {
-      list-style-type: lower-roman;
-    }
-  }
-}
-
-// Outline Ordered List
-%list--outline {
-  list-style-type: upper-roman;
-
-  ol {
-    list-style-type: upper-alpha;
-
-    ol {
-      list-style-type: decimal;
-
-      ol {
-        list-style-type: lower-latin;
-
-        ol {
-          list-style-type: lower-roman;
-        }
-      }
-    }
-  }
-}
-
 // Assign placeholders to classes
 .list--flush {
   @extend %list--flush;
@@ -99,18 +41,6 @@
 
 .list--pipe {
   @extend %list--pipe;
-}
-
-.list--simple {
-  @extend %list--simple;
-}
-
-.list--multilevel {
-  @extend %list--multilevel;
-}
-
-.list--outline {
-  @extend %list--outline;
 }
 
 .list--reset {
@@ -124,8 +54,7 @@
 // even if they don't have the class applied directly to their list.
 $list-wrapper-parents: (
   "flush",
-  "pipe",
-  "simple"
+  "pipe"
 );
 
 @each $item in $list-wrapper-parents {
