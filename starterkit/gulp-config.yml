@@ -17,7 +17,7 @@ css:
 js:
   enabled: true
   src:
-    - js/pattern_lab/**/*.js
+    - js/1_pattern_lab/**/*.js
     - js/vendor/**/*.js
     - js/**/*.js
 #  externals:
