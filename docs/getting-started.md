@@ -26,11 +26,9 @@ If you are on Windows you may run into a few issues.
 
 It is recommended you use [Git for Windows](http://git-for-windows.github.io/).
 
-If you get an alert saying that Google Chrome can't run, try passing in a different string into your `confi-config.local.yml` file.
+If you get an alert saying that Google Chrome can't run, try passing in a different browser string into your `gulp-config.local.yml` file.
 
 ```yaml
 browserSync:
   browser: ['chrome']
 ```
-
-Gulp tasks `newsite` and `themesync` use rsync and won't work in Windows natively.

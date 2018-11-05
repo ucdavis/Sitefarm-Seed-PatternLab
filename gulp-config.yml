@@ -34,6 +34,7 @@ nodeFiles:
 browserSync:
   enabled: true
   startPath: 'public'
+#  browser: ['chrome'] # Use this instead of 'Chrome Browser' if on Windows.
 
 themeSync:
   enabled: false

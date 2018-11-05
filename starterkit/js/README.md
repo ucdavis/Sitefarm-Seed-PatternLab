@@ -6,7 +6,7 @@ Please use multiple files rather than stuffing all javascript into a single file
 
 ## Pattern Lab Files
 
-Javascript imported from Pattern Lab will be in the **/js/pattern_lab/** directory. Do not edit files here or they will be changed on the next sync.
+Javascript imported from Pattern Lab will be in the **/js/1_pattern_lab/** directory. Do not edit files here or they will be changed on the next sync.
 
 ## Validation
 
