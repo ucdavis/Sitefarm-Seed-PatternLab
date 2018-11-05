@@ -151,7 +151,7 @@ BrowserSync is being used by Gulp to allow live reloading so that changes will b
 ```yaml
 themeSync:
   enabled: true
-  src: ~/location/of/patternlab
+  src: /location/of/patternlab
 ```
 
 2. Run the theme sync gulp task:

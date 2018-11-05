@@ -10,7 +10,7 @@ You can wire up a new site with all the styles, config, gulp tasks, and director
 themeSync:
   enabled: true
   newsite: true
-  dest: ~/location/to/stick/the/code
+  dest: /location/to/stick/the/code
 ```
 2. Now you can just run a simple Gulp command to generate all the starterkit code.
 
@@ -25,7 +25,7 @@ themeSync:
 ```yaml
 themeSync:
   enabled: true
-  dest: ~/location/to/stick/the/code
+  dest: /location/to/stick/the/code
 ```
 2. Run the theme sync gulp task:
 
