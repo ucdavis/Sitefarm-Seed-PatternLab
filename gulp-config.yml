@@ -14,7 +14,7 @@ css:
   outputStyle: compressed
   sassdoc:
     enabled: true
-    basePath: https://bitbucket.org/ietwebdev/sitefarm-pattern-lab-one/src/master/source/sass
+    basePath: https://github.com/ucdavis/Sitefarm-Seed-PatternLab/tree/master/source/sass
 
 js:
   enabled: true
