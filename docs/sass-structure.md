@@ -12,14 +12,12 @@
 |   |-- 5_layout
 |   |-- 6_skin
 |   |-- _hacks.scss
-|   |-- no-query.scss
+|   |-- _variables.scss
 |   |-- style.scss
 ```
 
 ## 0. Utility
 This folder contains global tools or base settings.
-
-**_variables.scss** contains all the site SASS variables which will be used by components, mixins, and anything else which needs values abstracted for site-wide use.
 
 Mixins should be placed here so that they are usable for all SASS partials.
 
@@ -82,6 +80,8 @@ This folder is used for sitewide changes via a class on the `<body>` tag. This i
 
 ## Files
 **_hacks.scss**: this partial should be used sparingly when something needs to be done very quickly without time to put a style in its proper place. This file overrides everything so it should be cleaned up regularly so that styles go in their proper place.
+
+**_variables.scss** contains all the site SASS variables which will be used by components, mixins, and anything else which needs values abstracted for site-wide use.
 
 **style.scss**: This is the main file which will be rendered into **style.css**. It contains all of the SASS libraries and partials necessary to build CSS. 
 
