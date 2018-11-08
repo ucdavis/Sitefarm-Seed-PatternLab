@@ -13,7 +13,7 @@ The [UCD Theme Tasks](https://www.npmjs.com/package/ucd-theme-tasks) node packag
 
 Gulp configuration can be customized to a local environment by creating a `gulp-config.local.yml` file. Any custom config specific to a local setup can be placed in here and it will not be committed to Git.
 
-Project configuration is found in `gulp-config.yml`. You can copy out config you want to change into your custom file. This file overrides default config in [https://github.com/ucdavis/ucd-theme-tasks/blob/master/config.default.js](https://github.com/ucdavis/ucd-theme-tasks/blob/master/config.default.js)
+Project configuration is found in `gulp-config.yml`. You can copy out config you want to change into your custom file. This file overrides default config in [https://github.com/ucdavis/ucd-theme-tasks/blob/master/docs/config.md](https://github.com/ucdavis/ucd-theme-tasks/blob/master/docs/config.md)
 
 ## Gulp Tasks
 
