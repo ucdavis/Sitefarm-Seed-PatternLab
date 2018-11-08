@@ -14,7 +14,9 @@ themeSync:
 ```
 2. Now you can just run a simple Gulp command to generate all the starterkit code.
 
-    $ gulp newsite
+```bash
+$ gulp newsite
+```
 
 3. Finally, edit the `package.json` files to customize to your site. As well, you can edit the `gulp-config.yml` file to your specs.
 
@@ -29,4 +31,6 @@ themeSync:
 ```
 2. Run the theme sync gulp task:
 
-    $ gulp themesync
+```bash
+$ gulp themesync
+```
