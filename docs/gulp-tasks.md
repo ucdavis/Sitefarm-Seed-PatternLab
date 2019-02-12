@@ -17,14 +17,14 @@ Project configuration is found in `gulp-config.yml`. You can copy out config you
 
 ## Gulp Tasks
 
-There are 4 main gulp tasks you should be aware of. Just add `gulp` before each task like `$ gulp help`.
+There are 4 main gulp tasks you should be aware of. Just add `npx gulp` before each task like `$ npx gulp help`.
 
 1. **Help** - Displays a list of all the available tasks with a brief discription of each
 2. **Default** - Generate the entire site and start watching for changes to live reload in the browser
 3. **Compile** - Generate the entire site with all assets such as css and js
 4. **Validate** - Validate CSS and JS by linting
 
-`$ gulp` is the one most often used and is the same as `$ gulp default`
+`$ npx gulp` is the one most often used and is the same as `$ npx gulp default`
 
 ## Using Gulp with PHPStorm
 

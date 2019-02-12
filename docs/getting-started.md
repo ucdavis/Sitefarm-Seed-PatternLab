@@ -4,9 +4,6 @@
 
 You'll need [node.js](http://nodejs.org).
 
-After installing Node you should install Gulp globally (you may need to use `sudo` if you get errors).
-
-    $ npm install --global gulp
 
 ## Install and setup
     
@@ -16,11 +13,7 @@ After cloning and changing into that directory, run this to install dependencies
 
 You may have to run that again for updates; so it may be wise to save this: `$ npm install`. **If you have any problems; this is the first thing to run.**
 
-Finally, to do an initial build of the site and start watching for changes run `gulp`
-
-    $ gulp
-    
-You can also optionally use NPX to run the local version of gulp installed with this repo.
+Finally, to do an initial build of the site and start watching for changes run `gulp`. You should use the gulp version specific to your project by prefixing all your gulp commands with `npx`.
 
     $ npx gulp
 
