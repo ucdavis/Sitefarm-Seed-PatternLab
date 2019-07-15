@@ -10,7 +10,7 @@
   "main": "gulpfile.js",
   "private": true,
   "scripts": {
-    "start": "npx gulp",
+    "start": "gulp",
     "serve": "http-server public -c-1",
     "serve:ci": "http-server public -c-1 --silent",
     "e2e": "npm run serve:ci & cypress open",
@@ -22,7 +22,7 @@
     "@pattern-lab/uikit-workshop": "^1.0.0-beta.0",
     "cypress": "^3.1.0",
     "http-server": "^0.11.1",
-    "ucd-theme-tasks": "^2.0.1"
+    "ucd-theme-tasks": "^3.0.0"
   },
   "engines": {
     "node": ">=8.9.0"

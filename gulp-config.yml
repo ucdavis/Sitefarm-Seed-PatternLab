@@ -12,9 +12,6 @@ css:
     extraSrc:
       - '!source/sass/0_utility/utility_helpers/_u-space.scss'
   outputStyle: compressed
-  sassdoc:
-    enabled: true
-    basePath: https://github.com/ucdavis/Sitefarm-Seed-PatternLab/tree/master/source/sass
 
 js:
   enabled: true
