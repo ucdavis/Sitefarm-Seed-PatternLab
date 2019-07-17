@@ -20,7 +20,7 @@
     "@pattern-lab/core": "^3.0.0-beta.1",
     "@pattern-lab/engine-mustache": "^2.0.0-beta.0",
     "@pattern-lab/uikit-workshop": "^1.0.0-beta.0",
-    "cypress": "^3.1.0",
+    "cypress": "^3.4.0",
     "http-server": "^0.11.1",
     "ucd-theme-tasks": "^3.0.0"
   },
