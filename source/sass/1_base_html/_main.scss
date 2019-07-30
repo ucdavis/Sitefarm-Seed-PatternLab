@@ -1,14 +1,11 @@
 html {
+  // This font size is what the rest of the fonts in the site using REM will be
+  // based off of. Changing this size will change it throughout the site.
+  @include fluid-type($media-small, $media-huge, $font-size--small, $font-size--large);
+
   // Add background color to ensure the footer color cascades to the bottom when
   // there is very minimal vertical content on the site.
   background-color: $brand--primary;
-  // This font size is what the rest of the fonts in the site using REM will be
-  // based off of. Changing this size will change it throughout the site.
-  font-size: $font-size;
-
-  @include breakpoint($bp-huge) {
-    font-size: 20px;
-  }
 }
 
 body {

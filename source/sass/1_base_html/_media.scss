@@ -27,7 +27,7 @@ figure {
 
 // display: block is for IE11 and is overridden below in the @supports
 figcaption {
-  @include font-size(12px, 18px);
+  font-size: .75rem;
   caption-side: bottom;
   color: darken($gray-light, 10%);
   font-style: italic;

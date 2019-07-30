@@ -12,7 +12,7 @@ strong,
 
 // Blockquote
 blockquote {
-  @include font-size(18px);
+  font-size: 1.125rem;
   border-left: 5px solid $brand--primary-20;
   padding-left: $spacer;
   color: $brand--primary-90;

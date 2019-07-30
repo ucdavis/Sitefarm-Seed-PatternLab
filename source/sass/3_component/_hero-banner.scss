@@ -39,19 +39,19 @@
     text-shadow: $black 0 0 2px;
 
     @include breakpoint($bp-small--up) {
-      @include font-size(20px);
+      font-size: 1.25rem;
     }
 
     @include breakpoint($bp-narrow--up) {
-      @include font-size(30px);
+      font-size: 1.875rem;
     }
 
     @include breakpoint($bp-medium--up) {
-      @include font-size(35px);
+      font-size: 2.25rem;
     }
 
     @include breakpoint($bp-wide--up) {
-      @include font-size(45px);
+      font-size: 2.875rem;
     }
   }
 

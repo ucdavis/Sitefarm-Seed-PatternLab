@@ -22,7 +22,7 @@ $focal-link-size: 63px;
 
   &__body {
     @extend %o-media__body;
-    @include font-size(17px);
+    font-size: 1.125rem;
   }
 
   // Font Awesome icons for when not using an <img> tag. Add this to the &__figure div
