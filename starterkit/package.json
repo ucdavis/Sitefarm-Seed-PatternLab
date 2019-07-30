@@ -6,10 +6,11 @@
   "main": "gulpfile.js",
   "private": true,
   "scripts": {
+    "start": "gulp",
     "postinstall": "find node_modules/ -name '*.info' -type f -delete"
   },
   "devDependencies": {
-    "ucd-theme-tasks": "^2.0.1"
+    "ucd-theme-tasks": "^3.0.0"
   },
   "engines": {
     "node": ">=8.9.0"
