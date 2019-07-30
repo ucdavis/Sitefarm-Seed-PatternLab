@@ -26,6 +26,9 @@ node_modules
 # Testing
 tests/cypress/videos/
 tests/cypress/screenshots/
+tests/backstopjs/reference
+tests/backstopjs/reports
+tests/backstopjs/runs
 
 # Custom Local config
 /gulp-config.local.yml
