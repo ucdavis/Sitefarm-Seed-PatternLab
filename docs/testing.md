@@ -25,7 +25,7 @@ state after you make changes.
 ### Prerequisites:
 
 * [Docker and Docker Compose](https://www.docker.com/community-edition#/download)
-must be installed.
+must be installed and running.
 
 ### Workflow:
 First, be sure your new work has been committed to your feature branch.
@@ -35,8 +35,7 @@ Then, do a build of the dev branch to create reference images
 git checkout dev
 npm install
 npm start
-docker-compose run backstop test
-docker-compose run backstop approve
+npm run backstop:ref
 ```
 
 To check how your current work compares with the reference screenshots created
@@ -46,8 +45,7 @@ from the dev branch, check out your feature branch and test it:
 git checkout MYBRANCH
 npm install
 npm start
-docker-compose run backstop test
-open tests/backstopjs/reports/html/index.html
+npm run backstop:test
 ```
 
 At this time, do not commit reference images to the repository. BackstopJS is

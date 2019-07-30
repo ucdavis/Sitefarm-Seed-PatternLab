@@ -14,7 +14,11 @@
     "serve": "http-server public -c-1",
     "serve:ci": "http-server public -c-1 --silent",
     "e2e": "npm run serve:ci & cypress open",
-    "e2e:ci": "npm run serve:ci & cypress run"
+    "e2e:ci": "npm run serve:ci & cypress run",
+    "backstop:open": "start tests/backstopjs/reports/html/index.html || open tests/backstopjs/reports/html/index.html",
+    "backstop:compare": "docker-compose run backstop test || true",
+    "backstop:ref": "npm run backstop:compare && docker-compose run backstop approve",
+    "backstop:test": "npm run backstop:compare && npm run backstop:open"
   },
   "devDependencies": {
     "@pattern-lab/core": "^3.0.1",
