@@ -8,7 +8,7 @@
 |   |-- 1_base_html
 |   |-- 2_base_class
 |   |-- 3_objects
-|   |-- 3_component
+|   |-- 4_component
 |   |-- 5_layout
 |   |-- 6_utility
 |   |-- _hacks.scss
