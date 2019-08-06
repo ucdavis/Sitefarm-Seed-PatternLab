@@ -1,50 +1,49 @@
 image: cypress/base:10
 
+# Shared steps.
+stepBuild: &stepBuild
+  step:
+    name: Build and Validate
+    caches:
+      - node
+      - npm
+      - cypress
+    script:
+      - npm --version
+      - npm ci
+      - npx gulp validate
+      - npx gulp compile
+    artifacts:
+      - public/**
+
+stepTests: &stepTests
+  step:
+    name: E2E Tests with Cypress
+    caches:
+      - node
+      - npm
+      - cypress
+    script:
+      - npm run e2e:ci -- --config video=false # Disable video recording
+
+
 pipelines:
   default:
-    - step:
-        name: Build and Validate
-        caches:
-          - node
-          - npm
-          - cypress
-        script:
-          - npm --version
-          - npm ci
-          - npx gulp validate
-          - npx gulp compile
-        artifacts:
-          - public/**
-    - step:
-        name: E2E Tests with Cypress
-        caches:
-          - node
-          - npm
-          - cypress
-        script:
-          - npm run e2e:ci -- --config video=false # Disable video recording
+    - <<: *stepBuild
+    - <<: *stepTests
   branches:
     master:
+      - <<: *stepBuild
+      - <<: *stepTests
       - step:
           name: Deploy to AWS
-          image: thecodingmachine/php:7.2-v1-cli-node10
-          caches:
-            - node
-            - npm
+          image: mesosphere/aws-cli
+          deployment: production
           script:
-            - sudo apt-get update
-            - sudo apt-get -y --no-install-recommends install rsync
-            - sudo apt-get -y --no-install-recommends install awscli
-            - mkdir ~/.aws
-            - umask 077 ; echo $aws_config | base64 --decode > ~/.aws/config
-            - umask 077 ; echo $aws_credentials | base64 --decode > ~/.aws/credentials
-            - npm --version
-            - npm ci
-            - npx gulp validate
-            - npx gulp compile
             - cd public
-            - aws s3 sync . s3://ucd-one-patternlab --delete --exclude '*.svg'
-            - aws s3 sync . s3://ucd-one-patternlab --delete --exclude '*' --include '*.svg' --content-type 'image/svg+xml'
+            # Be sure to add environment variables for AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY, AWS_DEFAULT_REGION, S3_BUCKET
+            - aws s3 sync . s3://$S3_BUCKET --delete --exclude '*.svg'
+            - aws s3 sync . s3://$S3_BUCKET --delete --exclude '*' --include '*.svg' --content-type 'image/svg+xml'
 
 definitions:
   caches:
