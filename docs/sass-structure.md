@@ -7,9 +7,10 @@
 |   |-- 0_tools
 |   |-- 1_base_html
 |   |-- 2_base_class
+|   |-- 3_objects
 |   |-- 3_component
-|   |-- 4_region
 |   |-- 5_layout
+|   |-- 6_utility
 |   |-- _hacks.scss
 |   |-- _variables.scss
 |   |-- style.scss
@@ -19,14 +20,6 @@
 This folder contains global tools or base settings.
 
 Mixins should be placed here so that they are usable for all SASS partials.
-
-The `objects` folder contains css objects that are self-contained and reusable.
-They are prefixed with `.o-` to easily identify them in markup.
-
-The `utility` folder contains global css utility helper classes which are
-prefixed with `.u-` to easily identify them in markup. They make use of
-`!important` to ensure that their styles always apply ahead of those defined in
-a component's dedicated CSS.
 
 ## 1. Base HTML
 Only basic HTML tags should be used in this directory. This is the foundation
@@ -41,7 +34,13 @@ styles before being turned into Components.
 
 > PatternLab mapping: Atoms
 
-## 3. Components
+## 3. Objects
+The `objects` folder contains css objects that are self-contained and reusable.
+They are prefixed with `.o-` to easily identify them in markup.
+
+> PatternLab mapping: Atoms
+
+## 4. Components
 **The majority of all styles will go here.** Each component should be completely
 isolated from any other component. There should not be any sharing of styles
 among components. As well, cascading order should not be required for any
@@ -86,6 +85,17 @@ For Example:
 .l-header {}
 .l-footer {}
 ```
+
+## 6. Objects
+The `utility` folder contains global css utility helper classes which are
+prefixed with `.u-` to easily identify them in markup. They make use of
+`!important` to ensure that their styles always apply ahead of those defined in
+a component's dedicated CSS.
+
+> PatternLab mapping: Atoms
+
+The reason these come last in the CSS structure is because they are brute force
+classes that should always win in CSS specificity.
 
 ## Files
 **_hacks.scss**: this partial should be used sparingly when something needs to
