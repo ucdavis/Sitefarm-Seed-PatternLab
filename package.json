@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Pattern Lab for a SiteFarm Seed theme",
   "dependencies": {
-    "jquery": "^3.3.1",
+    "jquery": "^3.7.1",
     "photoswipe": "^4.1.2",
     "slick-carousel": "^1.8.1"
   },
